@@ -1,0 +1,1853 @@
+(sctn-env) nachman@nachman-cpu:~/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo$ /home/nachman/sctn-env/bin/python /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/resonator_work_test.py
+🧠 ENSEMBLE SPIKING NEURAL NETWORK CLASSIFICATION SYSTEM
+======================================================================
+📁 MODE: Pre-computed discriminative features
+📂 Source: /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output
+⚡ Optimized for ensemble training and evaluation
+======================================================================
+🧠 COMPREHENSIVE TRIPLE-FEATURE MULTI-SCTN ENSEMBLE NEURAL NETWORK SYSTEM
+==============================================================================================================
+    🎯 Ultimate Seismic Signal Classification System
+    🔬 Resonator-Based vs Raw Data Feature Comparison
+    📊 Binary Classification (Human/Car Detection)
+    🎭 Multi-Class Classification (Human/Car/Background)
+    ⚡ Bootstrap-Diversified Multi-Model Architecture
+    🏆 Weighted Voting Consensus System
+    📈 95%+ Accuracy Through Ensemble Intelligence
+    📊 Comprehensive Statistical Performance Analysis
+==============================================================================================================
+
+🎛️ SYSTEM CONFIGURATION:
+   📂 LOAD_FROM_CHUNKED = True
+   📁 CHUNKED_OUTPUT_DIR = /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output
+   📁 DATA_DIR = /home/nachman/data
+
+🚀 LAUNCHING COMPREHENSIVE TRIPLE-FEATURE ENSEMBLE COMPARISON PIPELINE...
+-------------------------------------------------------------------------------------
+🧠 COMPREHENSIVE TRIPLE-FEATURE MULTI-SCTN ENSEMBLE PIPELINE
+==============================================================================================================
+    🎯 Ultimate Seismic Signal Classification System
+    🔬 Resonator-Based vs Raw Data Feature Comparison
+    📊 Binary Classification (Human/Car Detection)
+    🎭 Multi-Class Classification (Human/Car/Background)
+    ⚡ Identical Ensemble SNN Architecture for Fair Evaluation
+    📈 Comprehensive Statistical Performance Analysis
+==============================================================================================================
+
+1️⃣ RESONATOR-BASED FEATURE EXTRACTION
+==========================================================================================
+📁 Loading pre-processed resonator features from /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output
+📊 Loading datasets for ensemble SNN training...
+  🔄 Processing human samples...
+    ✅ Extracted features from 47 samples
+  🔄 Processing human_nothing samples...
+    ✅ Extracted features from 33 samples
+  🔄 Processing car samples...
+    ✅ Extracted features from 28 samples
+  🔄 Processing car_nothing samples...
+    ✅ Extracted features from 16 samples
+  📊 Human dataset: 47 signal, 33 noise
+  📊 Car dataset: 28 signal, 16 noise
+📊 Loading 3-class dataset...
+  🔄 Processing human samples...
+    ✅ Extracted features from 47 samples
+  🔄 Processing car samples...
+    ✅ Extracted features from 28 samples
+  🔄 Processing human_nothing samples...
+    ✅ Extracted features from 33 samples
+  🔄 Processing car_nothing samples...
+    ✅ Extracted features from 16 samples
+  📊 Enhanced 3-class dataset created:
+    👤 Human samples: 47
+    🚗 Car samples: 28
+    🔇 Background samples: 40
+    📈 Total samples: 115
+    📊 Class distribution: Counter({0.0: 47, 2.0: 40, 1.0: 28})
+✅ Resonator binary datasets loaded: ['human', 'car']
+
+🎭 Training HUMAN binary ensemble with RESONATOR features...
+
+🧠 ENSEMBLE SNN TRAINING PIPELINE: HUMAN DETECTION
+=====================================================================================
+📊 DATASET ANALYSIS:
+   🎯 Signal type: HUMAN detection
+   📈 Total samples: 80
+   🧮 Feature dimensions: 32
+   🎵 Signal samples: 47
+   🔇 Background samples: 33
+   ⚖️  Class balance: 58.8% signal, 41.2% background
+
+1️⃣ ENSEMBLE CROSS VALIDATION ASSESSMENT
+------------------------------------------------------------
+   👤 Human detection: 10-model ensemble configuration
+
+🔄 ENSEMBLE SNN CROSS VALIDATION: HUMAN
+===========================================================================
+📊 Dataset: 80 total samples with 32 features
+📊 Class distribution: Counter({1.0: 47, 0.0: 33})
+🔀 Performing 5-fold stratified cross validation
+🧠 Ensemble architecture: 10 SCTN models per fold
+🎯 Signal optimization: human detection
+
+📁 ENSEMBLE FOLD 1/5
+--------------------------------------------------
+   📊 Training: 64 samples Counter({1.0: 37, 0.0: 27})
+   📊 Testing:  16 samples Counter({1.0: 10, 0.0: 6})
+   🧠 Training ensemble SNN (10 models)...
+🔬 Generating augmented training data (factor=6)...
+   📊 Training data: 48 → 336 samples
+   ✅ Fold 1 Results:
+      📊 Test Accuracy: 0.9375
+      📊 F1-Score: 0.9474
+      📊 Precision: 1.0000
+      📊 Sensitivity: 0.9000
+
+📁 ENSEMBLE FOLD 2/5
+--------------------------------------------------
+   📊 Training: 64 samples Counter({1.0: 37, 0.0: 27})
+   📊 Testing:  16 samples Counter({1.0: 10, 0.0: 6})
+   🧠 Training ensemble SNN (10 models)...
+🔬 Generating augmented training data (factor=6)...
+   📊 Training data: 48 → 336 samples
+   ✅ Fold 2 Results:
+      📊 Test Accuracy: 0.7500
+      📊 F1-Score: 0.8182
+      📊 Precision: 0.7500
+      📊 Sensitivity: 0.9000
+
+📁 ENSEMBLE FOLD 3/5
+--------------------------------------------------
+   📊 Training: 64 samples Counter({1.0: 38, 0.0: 26})
+   📊 Testing:  16 samples Counter({1.0: 9, 0.0: 7})
+   🧠 Training ensemble SNN (10 models)...
+🔬 Generating augmented training data (factor=6)...
+   📊 Training data: 48 → 336 samples
+   ✅ Fold 3 Results:
+      📊 Test Accuracy: 0.8750
+      📊 F1-Score: 0.9000
+      📊 Precision: 0.8182
+      📊 Sensitivity: 1.0000
+
+📁 ENSEMBLE FOLD 4/5
+--------------------------------------------------
+   📊 Training: 64 samples Counter({1.0: 38, 0.0: 26})
+   📊 Testing:  16 samples Counter({1.0: 9, 0.0: 7})
+   🧠 Training ensemble SNN (10 models)...
+🔬 Generating augmented training data (factor=6)...
+   📊 Training data: 48 → 336 samples
+   ✅ Fold 4 Results:
+      📊 Test Accuracy: 0.8750
+      📊 F1-Score: 0.9000
+      📊 Precision: 0.8182
+      📊 Sensitivity: 1.0000
+
+📁 ENSEMBLE FOLD 5/5
+--------------------------------------------------
+   📊 Training: 64 samples Counter({1.0: 38, 0.0: 26})
+   📊 Testing:  16 samples Counter({1.0: 9, 0.0: 7})
+   🧠 Training ensemble SNN (10 models)...
+🔬 Generating augmented training data (factor=6)...
+   📊 Training data: 48 → 336 samples
+   ✅ Fold 5 Results:
+      📊 Test Accuracy: 0.9375
+      📊 F1-Score: 0.9474
+      📊 Precision: 0.9000
+      📊 Sensitivity: 1.0000
+
+📊 ENSEMBLE SNN CROSS VALIDATION RESULTS
+===========================================================================
+🎯 Mean Test Accuracy: 0.8750 ± 0.0685
+🎯 Mean F1-Score: 0.9026 ± 0.0472
+🎯 Overall Accuracy: 0.8750
+
+📈 DETAILED FOLD-BY-FOLD PERFORMANCE:
+Fold   Accuracy   F1-Score   Precision   Sensitivity 
+-----------------------------------------------------------------
+1      0.9375    0.9474    1.0000     0.9000
+2      0.7500    0.8182    0.7500     0.9000
+3      0.8750    0.9000    0.8182     1.0000
+4      0.8750    0.9000    0.8182     1.0000
+5      0.9375    0.9474    0.9000     1.0000
+
+📈 OVERALL CONFUSION MATRIX (Combined Folds):
+                    Predicted
+Actual    Background  Signal
+Background      25          8
+Signal           2         45
+
+🎯 COMPREHENSIVE PERFORMANCE METRICS:
+   📊 Sensitivity (Recall): 0.9574
+   📊 Specificity:          0.7576
+   📊 Precision:            0.8491
+   📊 F1-Score:            0.9000
+
+🥈 ENSEMBLE SNN ASSESSMENT: 👍 VERY GOOD - Strong ensemble performance!
+
+2️⃣ FINAL ENSEMBLE SNN TRAINING
+------------------------------------------------------------
+   👤 Human optimized split: 68% train / 32% test
+   📊 Training set: 54 samples Counter({1.0: 32, 0.0: 22})
+   📊 Test set: 26 samples Counter({1.0: 15, 0.0: 11})
+
+🎭 Training human ensemble SNN...
+🧠 Training Ensemble SNN Classifier: HumanEnsembleSNN
+   📊 Dataset: 54 samples, 32 features
+   🎯 Signal type: human
+   🎭 Ensemble size: 10 SNN models
+   🎯 Selecting most discriminative features...
+   🎯 Using 24 discriminative features
+🔬 Generating augmented training data (factor=6)...
+   📊 Training data: 40 → 280 samples
+   📊 Augmented training: 40 → 280 samples
+   📊 Validation set: 14 samples
+
+🎭 Training individual SNN models:
+   🧠 Training SNN model 1/10...
+      ✅ Model 1 validation accuracy: 0.6429
+   🧠 Training SNN model 2/10...
+      ✅ Model 2 validation accuracy: 0.7857
+   🧠 Training SNN model 3/10...
+      ✅ Model 3 validation accuracy: 0.6429
+   🧠 Training SNN model 4/10...
+      ✅ Model 4 validation accuracy: 0.7143
+   🧠 Training SNN model 5/10...
+      ✅ Model 5 validation accuracy: 0.7143
+   🧠 Training SNN model 6/10...
+      ✅ Model 6 validation accuracy: 0.7857
+   🧠 Training SNN model 7/10...
+      ✅ Model 7 validation accuracy: 0.7143
+   🧠 Training SNN model 8/10...
+      ✅ Model 8 validation accuracy: 0.7857
+   🧠 Training SNN model 9/10...
+      ✅ Model 9 validation accuracy: 0.6429
+   🧠 Training SNN model 10/10...
+      ✅ Model 10 validation accuracy: 0.7143
+
+✅ Ensemble SNN training completed!
+   📊 Individual model accuracy range: 0.6429 - 0.7857
+   🎭 Ensemble validation accuracy: 0.7143 (71.43%)
+   📈 GOOD: Strong ensemble performance!
+
+3️⃣ COMPREHENSIVE ENSEMBLE EVALUATION
+------------------------------------------------------------
+
+================================================================================
+ENSEMBLE SNN EVALUATION: HUMAN DETECTION SYSTEM
+================================================================================
+📊 DATASET CONFIGURATION:
+   🎯 Signal type: HUMAN detection
+   📈 Total samples: 80
+   🧪 Test set: 26 samples (32.5%)
+   🏋️ Training set: 54 samples (67.5%)
+   📊 Test distribution: Counter({1.0: 15, 0.0: 11})
+   🎯 Split assessment: ⚠️ Suboptimal (40% target for human)
+
+🧠 ENSEMBLE ARCHITECTURE:
+   🎭 Number of SNN models: 10
+   🎯 Signal optimization: human
+   📊 Input features: 32
+   🏗️ Feature selection: Active
+
+⚡ PERFORMANCE EVALUATION:
+   🎯 Test Accuracy: 0.9231 (92.31%)
+   ⚡ Prediction Speed: 0.001s total, 0.04ms per sample
+   🚀 Throughput: 23366.6 samples/second
+
+🔬 INDIVIDUAL MODEL ANALYSIS:
+   🧠 Model 1: 0.8462 accuracy, weight: 0.090
+   🧠 Model 2: 0.8462 accuracy, weight: 0.110
+   🧠 Model 3: 0.8846 accuracy, weight: 0.090
+   🧠 Model 4: 0.9615 accuracy, weight: 0.100
+   🧠 Model 5: 0.9231 accuracy, weight: 0.100
+   🧠 Model 6: 0.8846 accuracy, weight: 0.110
+   🧠 Model 7: 0.9231 accuracy, weight: 0.100
+   🧠 Model 8: 0.8846 accuracy, weight: 0.110
+   🧠 Model 9: 0.8077 accuracy, weight: 0.090
+   🧠 Model 10: 0.9615 accuracy, weight: 0.100
+   📊 Individual range: 0.8077 - 0.9615
+   📈 Ensemble improvement: -0.0385
+
+📋 DETAILED CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+  Background       0.91      0.91      0.91        11
+      Signal       0.93      0.93      0.93        15
+
+    accuracy                           0.92        26
+   macro avg       0.92      0.92      0.92        26
+weighted avg       0.92      0.92      0.92        26
+
+
+📈 CONFUSION MATRIX ANALYSIS:
+                    Predicted
+Actual    Background  Signal
+Background      10          1
+Signal           1         14
+
+🎯 COMPREHENSIVE METRICS:
+   📊 Sensitivity (Recall):    0.9333
+   📊 Specificity:             0.9091
+   📊 Precision (PPV):         0.9333
+   📊 Negative Pred. Value:    0.9091
+   📊 F1-Score:                0.9333
+   📊 Balanced Accuracy:       0.9212
+
+🎲 PREDICTION CONFIDENCE ANALYSIS:
+   🎯 High confidence (>80% or <20%): 19 samples (73.1%)
+   📊 Medium confidence:               6 samples (23.1%)
+   ⚠️  Low confidence (40-60%):        1 samples (3.8%)
+
+🥇 ENSEMBLE ASSESSMENT: 🎯 EXCELLENT - 90%+ accuracy achieved!
+🚀 Production Deployment: ✅ READY
+Plot saved to: /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/output_plots/classification_report_RESONATOR_ENSEMBLE_SNN_CLASSIFICATION_REPORT_HUMAN_DETECTION_-_TEST_SET_EVALUATION.png
+Plot saved to: /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/output_plots/confusion_matrix_RESONATOR_Ensemble_SNN_Confusion_Matrix_-_HUMAN_Detection.png
+
+4️⃣ MODEL DEPLOYMENT PREPARATION
+------------------------------------------------------------
+💾 Ensemble SNN Model saved: ensemble_snn_human_detector.pkl
+   🎯 Signal type: human
+   🎭 Ensemble size: 10 models
+   📊 Test accuracy: 0.9231
+   🚀 Deployment ready: ✅ Yes
+
+📊 TRAINING PIPELINE SUMMARY: HUMAN
+=====================================================================================
+🔬 Cross Validation:     0.8750 ± 0.0685
+🎯 Final Test:           0.9231
+📈 Ensemble Improvement: -0.0385
+⚡ Inference Speed:      0.04ms per sample
+🎛️ Model Consistency:    👍 GOOD (diff: +0.0481)
+🚀 Deployment Status:    ✅ READY
+🎉 Achievement Level:    🥇 EXCELLENT PERFORMANCE!
+   ✅ Resonator human binary: 0.9231 accuracy
+
+🎭 Training CAR binary ensemble with RESONATOR features...
+
+🧠 ENSEMBLE SNN TRAINING PIPELINE: CAR DETECTION
+=====================================================================================
+📊 DATASET ANALYSIS:
+   🎯 Signal type: CAR detection
+   📈 Total samples: 44
+   🧮 Feature dimensions: 32
+   🎵 Signal samples: 28
+   🔇 Background samples: 16
+   ⚖️  Class balance: 63.6% signal, 36.4% background
+
+1️⃣ ENSEMBLE CROSS VALIDATION ASSESSMENT
+------------------------------------------------------------
+   🚗 Car detection: 7-model ensemble configuration
+
+🔄 ENSEMBLE SNN CROSS VALIDATION: CAR
+===========================================================================
+📊 Dataset: 44 total samples with 32 features
+📊 Class distribution: Counter({1.0: 28, 0.0: 16})
+🔀 Performing 5-fold stratified cross validation
+🧠 Ensemble architecture: 7 SCTN models per fold
+🎯 Signal optimization: car detection
+
+📁 ENSEMBLE FOLD 1/5
+--------------------------------------------------
+   📊 Training: 35 samples Counter({1.0: 22, 0.0: 13})
+   📊 Testing:  9 samples Counter({1.0: 6, 0.0: 3})
+   🧠 Training ensemble SNN (7 models)...
+🔬 Generating augmented training data (factor=4)...
+   📊 Training data: 26 → 130 samples
+   ✅ Fold 1 Results:
+      📊 Test Accuracy: 1.0000
+      📊 F1-Score: 1.0000
+      📊 Precision: 1.0000
+      📊 Sensitivity: 1.0000
+
+📁 ENSEMBLE FOLD 2/5
+--------------------------------------------------
+   📊 Training: 35 samples Counter({1.0: 22, 0.0: 13})
+   📊 Testing:  9 samples Counter({1.0: 6, 0.0: 3})
+   🧠 Training ensemble SNN (7 models)...
+🔬 Generating augmented training data (factor=4)...
+   📊 Training data: 26 → 130 samples
+   ✅ Fold 2 Results:
+      📊 Test Accuracy: 1.0000
+      📊 F1-Score: 1.0000
+      📊 Precision: 1.0000
+      📊 Sensitivity: 1.0000
+
+📁 ENSEMBLE FOLD 3/5
+--------------------------------------------------
+   📊 Training: 35 samples Counter({1.0: 22, 0.0: 13})
+   📊 Testing:  9 samples Counter({1.0: 6, 0.0: 3})
+   🧠 Training ensemble SNN (7 models)...
+🔬 Generating augmented training data (factor=4)...
+   📊 Training data: 26 → 130 samples
+   ✅ Fold 3 Results:
+      📊 Test Accuracy: 1.0000
+      📊 F1-Score: 1.0000
+      📊 Precision: 1.0000
+      📊 Sensitivity: 1.0000
+
+📁 ENSEMBLE FOLD 4/5
+--------------------------------------------------
+   📊 Training: 35 samples Counter({1.0: 23, 0.0: 12})
+   📊 Testing:  9 samples Counter({1.0: 5, 0.0: 4})
+   🧠 Training ensemble SNN (7 models)...
+🔬 Generating augmented training data (factor=4)...
+   📊 Training data: 26 → 130 samples
+   ✅ Fold 4 Results:
+      📊 Test Accuracy: 1.0000
+      📊 F1-Score: 1.0000
+      📊 Precision: 1.0000
+      📊 Sensitivity: 1.0000
+
+📁 ENSEMBLE FOLD 5/5
+--------------------------------------------------
+   📊 Training: 36 samples Counter({1.0: 23, 0.0: 13})
+   📊 Testing:  8 samples Counter({1.0: 5, 0.0: 3})
+   🧠 Training ensemble SNN (7 models)...
+🔬 Generating augmented training data (factor=4)...
+   📊 Training data: 27 → 135 samples
+   ✅ Fold 5 Results:
+      📊 Test Accuracy: 1.0000
+      📊 F1-Score: 1.0000
+      📊 Precision: 1.0000
+      📊 Sensitivity: 1.0000
+
+📊 ENSEMBLE SNN CROSS VALIDATION RESULTS
+===========================================================================
+🎯 Mean Test Accuracy: 1.0000 ± 0.0000
+🎯 Mean F1-Score: 1.0000 ± 0.0000
+🎯 Overall Accuracy: 1.0000
+
+📈 DETAILED FOLD-BY-FOLD PERFORMANCE:
+Fold   Accuracy   F1-Score   Precision   Sensitivity 
+-----------------------------------------------------------------
+1      1.0000    1.0000    1.0000     1.0000
+2      1.0000    1.0000    1.0000     1.0000
+3      1.0000    1.0000    1.0000     1.0000
+4      1.0000    1.0000    1.0000     1.0000
+5      1.0000    1.0000    1.0000     1.0000
+
+📈 OVERALL CONFUSION MATRIX (Combined Folds):
+                    Predicted
+Actual    Background  Signal
+Background      16          0
+Signal           0         28
+
+🎯 COMPREHENSIVE PERFORMANCE METRICS:
+   📊 Sensitivity (Recall): 1.0000
+   📊 Specificity:          1.0000
+   📊 Precision:            1.0000
+   📊 F1-Score:            1.0000
+
+🏆 ENSEMBLE SNN ASSESSMENT: 🎉 OUTSTANDING - 95%+ ensemble performance achieved!
+
+2️⃣ FINAL ENSEMBLE SNN TRAINING
+------------------------------------------------------------
+   🚗 Car optimized split: 75% train / 25% test
+   📊 Training set: 33 samples Counter({1.0: 21, 0.0: 12})
+   📊 Test set: 11 samples Counter({1.0: 7, 0.0: 4})
+
+🎭 Training car ensemble SNN...
+🧠 Training Ensemble SNN Classifier: CarEnsembleSNN
+   📊 Dataset: 33 samples, 32 features
+   🎯 Signal type: car
+   🎭 Ensemble size: 7 SNN models
+   🎯 Selecting most discriminative features...
+   🎯 Using 24 discriminative features
+🔬 Generating augmented training data (factor=4)...
+   📊 Training data: 24 → 120 samples
+   📊 Augmented training: 24 → 120 samples
+   📊 Validation set: 9 samples
+
+🎭 Training individual SNN models:
+   🧠 Training SNN model 1/7...
+      ✅ Model 1 validation accuracy: 1.0000
+   🧠 Training SNN model 2/7...
+      ✅ Model 2 validation accuracy: 1.0000
+   🧠 Training SNN model 3/7...
+      ✅ Model 3 validation accuracy: 1.0000
+   🧠 Training SNN model 4/7...
+      ✅ Model 4 validation accuracy: 0.8889
+   🧠 Training SNN model 5/7...
+      ✅ Model 5 validation accuracy: 0.6667
+   🧠 Training SNN model 6/7...
+      ✅ Model 6 validation accuracy: 1.0000
+   🧠 Training SNN model 7/7...
+      ✅ Model 7 validation accuracy: 1.0000
+
+✅ Ensemble SNN training completed!
+   📊 Individual model accuracy range: 0.6667 - 1.0000
+   🎭 Ensemble validation accuracy: 1.0000 (100.00%)
+   🎉 TARGET ACHIEVED: 95%+ accuracy!
+
+3️⃣ COMPREHENSIVE ENSEMBLE EVALUATION
+------------------------------------------------------------
+
+================================================================================
+ENSEMBLE SNN EVALUATION: CAR DETECTION SYSTEM
+================================================================================
+📊 DATASET CONFIGURATION:
+   🎯 Signal type: CAR detection
+   📈 Total samples: 44
+   🧪 Test set: 11 samples (25.0%)
+   🏋️ Training set: 33 samples (75.0%)
+   📊 Test distribution: Counter({1.0: 7, 0.0: 4})
+   🎯 Split assessment: ⚠️ Suboptimal (34% target for car)
+
+🧠 ENSEMBLE ARCHITECTURE:
+   🎭 Number of SNN models: 7
+   🎯 Signal optimization: car
+   📊 Input features: 32
+   🏗️ Feature selection: Active
+
+⚡ PERFORMANCE EVALUATION:
+   🎯 Test Accuracy: 1.0000 (100.00%)
+   ⚡ Prediction Speed: 0.001s total, 0.07ms per sample
+   🚀 Throughput: 14787.6 samples/second
+
+🔬 INDIVIDUAL MODEL ANALYSIS:
+   🧠 Model 1: 1.0000 accuracy, weight: 0.153
+   🧠 Model 2: 1.0000 accuracy, weight: 0.153
+   🧠 Model 3: 1.0000 accuracy, weight: 0.153
+   🧠 Model 4: 1.0000 accuracy, weight: 0.136
+   🧠 Model 5: 1.0000 accuracy, weight: 0.102
+   🧠 Model 6: 1.0000 accuracy, weight: 0.153
+   🧠 Model 7: 1.0000 accuracy, weight: 0.153
+   📊 Individual range: 1.0000 - 1.0000
+   📈 Ensemble improvement: +0.0000
+
+📋 DETAILED CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+  Background       1.00      1.00      1.00         4
+      Signal       1.00      1.00      1.00         7
+
+    accuracy                           1.00        11
+   macro avg       1.00      1.00      1.00        11
+weighted avg       1.00      1.00      1.00        11
+
+
+📈 CONFUSION MATRIX ANALYSIS:
+                    Predicted
+Actual    Background  Signal
+Background       4          0
+Signal           0          7
+
+🎯 COMPREHENSIVE METRICS:
+   📊 Sensitivity (Recall):    1.0000
+   📊 Specificity:             1.0000
+   📊 Precision (PPV):         1.0000
+   📊 Negative Pred. Value:    1.0000
+   📊 F1-Score:                1.0000
+   📊 Balanced Accuracy:       1.0000
+
+🎲 PREDICTION CONFIDENCE ANALYSIS:
+   🎯 High confidence (>80% or <20%): 11 samples (100.0%)
+   📊 Medium confidence:               0 samples (0.0%)
+   ⚠️  Low confidence (40-60%):        0 samples (0.0%)
+
+🏆 ENSEMBLE ASSESSMENT: 🎉 OUTSTANDING - 95%+ accuracy achieved!
+🚀 Production Deployment: ✅ READY
+Plot saved to: /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/output_plots/classification_report_RESONATOR_ENSEMBLE_SNN_CLASSIFICATION_REPORT_CAR_DETECTION_-_TEST_SET_EVALUATION.png
+Plot saved to: /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/output_plots/confusion_matrix_RESONATOR_Ensemble_SNN_Confusion_Matrix_-_CAR_Detection.png
+
+4️⃣ MODEL DEPLOYMENT PREPARATION
+------------------------------------------------------------
+💾 Ensemble SNN Model saved: ensemble_snn_car_detector.pkl
+   🎯 Signal type: car
+   🎭 Ensemble size: 7 models
+   📊 Test accuracy: 1.0000
+   🚀 Deployment ready: ✅ Yes
+
+📊 TRAINING PIPELINE SUMMARY: CAR
+=====================================================================================
+🔬 Cross Validation:     1.0000 ± 0.0000
+🎯 Final Test:           1.0000
+📈 Ensemble Improvement: +0.0000
+⚡ Inference Speed:      0.07ms per sample
+🎛️ Model Consistency:    ✅ EXCELLENT (diff: +0.0000)
+🚀 Deployment Status:    ✅ READY
+🎉 Achievement Level:    🏆 OUTSTANDING PERFORMANCE!
+   ✅ Resonator car binary: 1.0000 accuracy
+✅ Resonator multi-class dataset loaded: 115 samples
+
+🎭 Training MULTI-CLASS ensemble with RESONATOR features...
+
+🧠 MULTI-CLASS ENSEMBLE SNN TRAINING PIPELINE
+==========================================================================================
+📊 MULTI-CLASS DATASET ANALYSIS:
+   🎯 Classification type: Multi-class (Human/Car/Background)
+   📈 Total samples: 115
+   🧮 Feature dimensions: 32
+   📊 Number of classes: 3
+   🏷️  Class names: ['Human', 'Car', 'Background']
+   📊 Class distribution: Counter({0.0: 47, 2.0: 40, 1.0: 28})
+      Human: 47 samples (40.9%)
+      Car: 28 samples (24.3%)
+      Background: 40 samples (34.8%)
+
+1️⃣ MULTI-CLASS ENSEMBLE CROSS VALIDATION ASSESSMENT
+----------------------------------------------------------------------
+   🎭 Multi-class ensemble: 8-model configuration
+   🎯 Optimization: Proven configuration for 90%+ target
+
+🔄 MULTI-CLASS ENSEMBLE SNN CROSS VALIDATION
+=====================================================================================
+📊 Dataset: 115 total samples with 32 features
+📊 Classes: 3 (['Human', 'Car', 'Background'])
+📊 Class distribution: Counter({0.0: 47, 2.0: 40, 1.0: 28})
+🔀 Performing 5-fold stratified cross validation
+🧠 Ensemble architecture: 8 SCTN models per fold
+
+📁 MULTI-CLASS ENSEMBLE FOLD 1/5
+------------------------------------------------------------
+   📊 Training: 92 samples Counter({0.0: 37, 2.0: 32, 1.0: 23})
+   📊 Testing:  23 samples Counter({0.0: 10, 2.0: 8, 1.0: 5})
+   🧠 Training multi-class ensemble SNN (8 models)...
+🔬 Generating augmented training data (factor=4)...
+   📊 Training data: 69 → 345 samples
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   ✅ Fold 1 Results:
+      📊 Test Accuracy: 0.7391
+      📊 Macro F1-Score: 0.5582
+      📊 Macro Precision: 0.5238
+      📊 Macro Recall: 0.6333
+
+📁 MULTI-CLASS ENSEMBLE FOLD 2/5
+------------------------------------------------------------
+   📊 Training: 92 samples Counter({0.0: 37, 2.0: 32, 1.0: 23})
+   📊 Testing:  23 samples Counter({0.0: 10, 2.0: 8, 1.0: 5})
+   🧠 Training multi-class ensemble SNN (8 models)...
+🔬 Generating augmented training data (factor=4)...
+   📊 Training data: 69 → 345 samples
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   ✅ Fold 2 Results:
+      📊 Test Accuracy: 0.8261
+      📊 Macro F1-Score: 0.7111
+      📊 Macro Precision: 0.8889
+      📊 Macro Recall: 0.7333
+
+📁 MULTI-CLASS ENSEMBLE FOLD 3/5
+------------------------------------------------------------
+   📊 Training: 92 samples Counter({0.0: 38, 2.0: 32, 1.0: 22})
+   📊 Testing:  23 samples Counter({0.0: 9, 2.0: 8, 1.0: 6})
+   🧠 Training multi-class ensemble SNN (8 models)...
+🔬 Generating augmented training data (factor=4)...
+   📊 Training data: 69 → 345 samples
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   ✅ Fold 3 Results:
+      📊 Test Accuracy: 0.8261
+      📊 Macro F1-Score: 0.8250
+      📊 Macro Precision: 0.8889
+      📊 Macro Recall: 0.8148
+
+📁 MULTI-CLASS ENSEMBLE FOLD 4/5
+------------------------------------------------------------
+   📊 Training: 92 samples Counter({0.0: 38, 2.0: 32, 1.0: 22})
+   📊 Testing:  23 samples Counter({0.0: 9, 2.0: 8, 1.0: 6})
+   🧠 Training multi-class ensemble SNN (8 models)...
+🔬 Generating augmented training data (factor=4)...
+   📊 Training data: 69 → 345 samples
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   ✅ Fold 4 Results:
+      📊 Test Accuracy: 0.7391
+      📊 Macro F1-Score: 0.6514
+      📊 Macro Precision: 0.8571
+      📊 Macro Recall: 0.6852
+
+📁 MULTI-CLASS ENSEMBLE FOLD 5/5
+------------------------------------------------------------
+   📊 Training: 92 samples Counter({0.0: 38, 2.0: 32, 1.0: 22})
+   📊 Testing:  23 samples Counter({0.0: 9, 2.0: 8, 1.0: 6})
+   🧠 Training multi-class ensemble SNN (8 models)...
+🔬 Generating augmented training data (factor=4)...
+   📊 Training data: 69 → 345 samples
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   ✅ Fold 5 Results:
+      📊 Test Accuracy: 0.8696
+      📊 Macro F1-Score: 0.8363
+      📊 Macro Precision: 0.9091
+      📊 Macro Recall: 0.8333
+
+📊 MULTI-CLASS ENSEMBLE SNN CROSS VALIDATION RESULTS
+=====================================================================================
+🎯 Mean Test Accuracy: 0.8000 ± 0.0522
+🎯 Mean Macro F1-Score: 0.7164 ± 0.1053
+🎯 Overall Accuracy: 0.8000
+
+📈 DETAILED FOLD-BY-FOLD PERFORMANCE:
+Fold   Accuracy   Macro F1   Macro Prec   Macro Rec  
+-----------------------------------------------------------------
+1      0.7391    0.5582    0.5238      0.6333
+2      0.8261    0.7111    0.8889      0.7333
+3      0.8261    0.8250    0.8889      0.8148
+4      0.7391    0.6514    0.8571      0.6852
+5      0.8696    0.8363    0.9091      0.8333
+
+📈 OVERALL CONFUSION MATRIX (Combined Folds):
+Classes: ['Human', 'Car', 'Background']
+[[43  0  4]
+ [ 0  9 19]
+ [ 0  0 40]]
+
+🎯 PER-CLASS PERFORMANCE METRICS:
+Class        Precision   Recall    F1-Score   Support  
+-----------------------------------------------------------------
+Human        1.0000     0.9149   0.9556    47       
+Car          1.0000     0.3214   0.4865    28       
+Background   0.6349     1.0000   0.7767    40       
+
+🥇 MULTI-CLASS ENSEMBLE ASSESSMENT: 🎯 GOOD - 70%+ multi-class performance!
+
+2️⃣ FINAL MULTI-CLASS ENSEMBLE SNN TRAINING
+----------------------------------------------------------------------
+   🎯 Multi-class optimized split: 70% train / 30% test
+   📊 Training set: 80 samples Counter({0.0: 33, 2.0: 28, 1.0: 19})
+   📊 Test set: 35 samples Counter({0.0: 14, 2.0: 12, 1.0: 9})
+
+🎭 Training multi-class ensemble SNN...
+🧠 Training Multi-Class Ensemble SNN Classifier: MultiClassEnsembleSNN
+   📊 Dataset: 80 samples, 32 features
+   🎯 Signal type: multiclass
+   🎭 Ensemble size: 8 SNN models
+   📈 Classes: 3
+   📊 Class distribution: Counter({0.0: 33, 2.0: 28, 1.0: 19})
+   🏷️  Class names: ['Human', 'Car', 'Background']
+   🎯 Selecting most discriminative features...
+   🎯 Using 24 discriminative features
+🔬 Generating augmented training data (factor=4)...
+   📊 Training data: 60 → 300 samples
+   📊 Augmented training: 60 → 300 samples
+   📊 Validation set: 20 samples
+
+🎭 Training individual multi-class SNN models:
+   🧠 Training multi-class SNN model 1/8...
+   🎯 Enhanced training: Human class weight = 2.0x
+      ✅ Model 1 validation accuracy: 0.9500
+   🧠 Training multi-class SNN model 2/8...
+   🎯 Enhanced training: Human class weight = 2.0x
+      ✅ Model 2 validation accuracy: 0.9000
+   🧠 Training multi-class SNN model 3/8...
+   🎯 Enhanced training: Human class weight = 2.0x
+      ✅ Model 3 validation accuracy: 0.9500
+   🧠 Training multi-class SNN model 4/8...
+   🎯 Enhanced training: Human class weight = 2.0x
+      ✅ Model 4 validation accuracy: 1.0000
+   🧠 Training multi-class SNN model 5/8...
+   🎯 Enhanced training: Human class weight = 2.0x
+      ✅ Model 5 validation accuracy: 0.9500
+   🧠 Training multi-class SNN model 6/8...
+   🎯 Enhanced training: Human class weight = 2.0x
+      ✅ Model 6 validation accuracy: 0.6000
+   🧠 Training multi-class SNN model 7/8...
+   🎯 Enhanced training: Human class weight = 2.0x
+      ✅ Model 7 validation accuracy: 0.8000
+   🧠 Training multi-class SNN model 8/8...
+   🎯 Enhanced training: Human class weight = 2.0x
+      ✅ Model 8 validation accuracy: 1.0000
+
+✅ Multi-Class Ensemble SNN training completed!
+   📊 Individual model accuracy range: 0.6000 - 1.0000
+   🎭 Ensemble validation accuracy: 0.9500 (95.00%)
+   🎉 EXCELLENT: 85%+ multi-class accuracy!
+
+3️⃣ COMPREHENSIVE MULTI-CLASS ENSEMBLE EVALUATION
+----------------------------------------------------------------------
+
+==========================================================================================
+MULTI-CLASS ENSEMBLE SNN EVALUATION: HUMAN/CAR/BACKGROUND CLASSIFICATION
+==========================================================================================
+📊 DATASET CONFIGURATION:
+   🎯 Classification: Multi-class (Human/Car/Background)
+   📈 Total samples: 115
+   🧪 Test set: 35 samples (30.4%)
+   🏋️ Training set: 80 samples (69.6%)
+   📊 Test distribution: Counter({0.0: 14, 2.0: 12, 1.0: 9})
+
+🧠 MULTI-CLASS ENSEMBLE ARCHITECTURE:
+   🎭 Number of SNN models: 8
+   🎯 Classification type: Multi-class
+   📊 Input features: 32
+   🏗️ Feature selection: Active
+   📈 Number of classes: 3
+   🏷️  Class names: ['Human', 'Car', 'Background']
+
+⚡ MULTI-CLASS PERFORMANCE EVALUATION:
+   🎯 Test Accuracy: 0.9143 (91.43%)
+   ⚡ Prediction Speed: 0.003s total, 0.07ms per sample
+   🚀 Throughput: 13644.5 samples/second
+
+🔬 INDIVIDUAL MULTI-CLASS MODEL ANALYSIS:
+   🧠 Model 1: 0.8571 accuracy, weight: 0.133
+   🧠 Model 2: 0.8286 accuracy, weight: 0.126
+   🧠 Model 3: 0.9143 accuracy, weight: 0.133
+   🧠 Model 4: 0.9143 accuracy, weight: 0.140
+   🧠 Model 5: 0.9143 accuracy, weight: 0.133
+   🧠 Model 6: 0.6000 accuracy, weight: 0.084
+   🧠 Model 7: 0.8286 accuracy, weight: 0.112
+   🧠 Model 8: 0.9143 accuracy, weight: 0.140
+   📊 Individual range: 0.6000 - 0.9143
+   📈 Ensemble improvement: +0.0000
+
+📋 DETAILED MULTI-CLASS CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+       Human       1.00      1.00      1.00        14
+         Car       1.00      0.67      0.80         9
+  Background       0.80      1.00      0.89        12
+
+    accuracy                           0.91        35
+   macro avg       0.93      0.89      0.90        35
+weighted avg       0.93      0.91      0.91        35
+
+
+📈 MULTI-CLASS CONFUSION MATRIX ANALYSIS:
+                    Predicted
+Actual      Human    Car    Background
+Human           14       0       0  
+Car              0       6       3  
+Background       0       0      12  
+
+🎯 COMPREHENSIVE MULTI-CLASS METRICS:
+   📊 Macro Precision:     0.9333
+   📊 Macro Recall:        0.8889
+   📊 Macro F1-Score:      0.8963
+   📊 Weighted Precision:  0.9314
+   📊 Weighted Recall:     0.9143
+   📊 Weighted F1-Score:   0.9105
+
+🎯 PER-CLASS PERFORMANCE BREAKDOWN:
+Class        Precision   Recall    F1-Score   Support  
+-----------------------------------------------------------------
+Human        1.0000     1.0000   1.0000    14       
+Car          1.0000     0.6667   0.8000    9        
+Background   0.8000     1.0000   0.8889    12       
+
+🎲 MULTI-CLASS PREDICTION CONFIDENCE ANALYSIS:
+   🎯 High confidence (>70%):    30 samples (85.7%)
+   📊 Medium confidence (50-70%): 5 samples (14.3%)
+   ⚠️  Low confidence (<50%):     0 samples (0.0%)
+
+🏆 MULTI-CLASS ENSEMBLE ASSESSMENT: 🎉 OUTSTANDING - 80%+ multi-class accuracy achieved!
+🚀 Production Deployment: ✅ READY
+Plot saved to: /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/output_plots/classification_report_RESONATOR_MULTI-CLASS_ENSEMBLE_SNN_CLASSIFICATION_REPORT_HUMAN_CAR_BACKGROUND_DETECTION_-_TEST_SET_EVALUATION.png
+Plot saved to: /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/output_plots/confusion_matrix_RESONATOR_Multi-Class_Ensemble_SNN_Confusion_Matrix_-_Human_Car_Background.png
+
+4️⃣ MULTI-CLASS MODEL DEPLOYMENT PREPARATION
+----------------------------------------------------------------------
+💾 Ensemble SNN Model saved: ensemble_snn_multiclass_detector.pkl
+   🎯 Signal type: multiclass
+   🎭 Ensemble size: 8 models
+   📊 Test accuracy: 0.9143
+   🚀 Deployment ready: ✅ Yes
+
+📊 MULTI-CLASS TRAINING PIPELINE SUMMARY
+==========================================================================================
+🔬 Cross Validation:      0.8000 ± 0.0522
+🎯 Final Test Accuracy:   0.9143
+📊 Macro F1-Score:        0.8963
+📈 Ensemble Improvement:  +0.0000
+⚡ Inference Speed:       0.07ms per sample
+🎛️ Model Consistency:     ⚠️ VARIABLE (diff: +0.1143)
+🚀 Deployment Status:     ✅ READY
+🎉 Achievement Level:     🏆 OUTSTANDING MULTI-CLASS PERFORMANCE!
+
+🎯 PER-CLASS PERFORMANCE SUMMARY:
+   Human: Precision=1.000, Recall=1.000, F1=1.000
+   Car: Precision=1.000, Recall=0.667, F1=0.800
+   Background: Precision=0.800, Recall=1.000, F1=0.889
+   ✅ Resonator multi-class: 0.9143 accuracy
+
+2️⃣ RAW DATA FEATURE EXTRACTION
+==========================================================================================
+📊 Loading raw data datasets for ensemble SNN training...
+  🔄 Processing human raw data...
+    ✅ Extracted features from 46 chunks
+  🔄 Processing human_nothing raw data...
+    ✅ Extracted features from 33 chunks
+  🔄 Processing car raw data...
+    ✅ Extracted features from 28 chunks
+  🔄 Processing car_nothing raw data...
+    ✅ Extracted features from 16 chunks
+  📊 Human raw dataset: 46 footstep samples, 33 noise samples
+  📊 Car raw dataset: 28 car samples, 16 noise samples
+📊 Loading multi-class raw data dataset for ensemble SNN training...
+  🔄 Processing human raw data...
+    ✅ Extracted features from 46 chunks
+  🔄 Processing car raw data...
+    ✅ Extracted features from 28 chunks
+  🔄 Processing human_nothing raw data...
+    ✅ Extracted features from 33 chunks
+  🔄 Processing car_nothing raw data...
+    ✅ Extracted features from 16 chunks
+  📊 Multi-class raw data dataset created:
+    👤 Human samples: 46
+    🚗 Car samples: 28
+    🔇 Background samples: 49 (combined human_nothing + car_nothing)
+    📈 Total samples: 123
+    📊 Class distribution: Counter({2.0: 49, 0.0: 46, 1.0: 28})
+✅ Raw data binary datasets loaded: ['human', 'car']
+
+🎭 Training HUMAN binary ensemble with RAW DATA features...
+
+🧠 ENSEMBLE SNN TRAINING PIPELINE: HUMAN DETECTION
+=====================================================================================
+📊 DATASET ANALYSIS:
+   🎯 Signal type: HUMAN detection
+   📈 Total samples: 79
+   🧮 Feature dimensions: 32
+   🎵 Signal samples: 46
+   🔇 Background samples: 33
+   ⚖️  Class balance: 58.2% signal, 41.8% background
+
+1️⃣ ENSEMBLE CROSS VALIDATION ASSESSMENT
+------------------------------------------------------------
+   👤 Human detection: 10-model ensemble configuration
+
+🔄 ENSEMBLE SNN CROSS VALIDATION: HUMAN
+===========================================================================
+📊 Dataset: 79 total samples with 32 features
+📊 Class distribution: Counter({1.0: 46, 0.0: 33})
+🔀 Performing 5-fold stratified cross validation
+🧠 Ensemble architecture: 10 SCTN models per fold
+🎯 Signal optimization: human detection
+
+📁 ENSEMBLE FOLD 1/5
+--------------------------------------------------
+   📊 Training: 63 samples Counter({1.0: 36, 0.0: 27})
+   📊 Testing:  16 samples Counter({1.0: 10, 0.0: 6})
+   🧠 Training ensemble SNN (10 models)...
+🔬 Generating augmented training data (factor=6)...
+   📊 Training data: 47 → 329 samples
+   ✅ Fold 1 Results:
+      📊 Test Accuracy: 0.7500
+      📊 F1-Score: 0.8182
+      📊 Precision: 0.7500
+      📊 Sensitivity: 0.9000
+
+📁 ENSEMBLE FOLD 2/5
+--------------------------------------------------
+   📊 Training: 63 samples Counter({1.0: 37, 0.0: 26})
+   📊 Testing:  16 samples Counter({1.0: 9, 0.0: 7})
+   🧠 Training ensemble SNN (10 models)...
+🔬 Generating augmented training data (factor=6)...
+   📊 Training data: 47 → 329 samples
+   ✅ Fold 2 Results:
+      📊 Test Accuracy: 0.9375
+      📊 F1-Score: 0.9412
+      📊 Precision: 1.0000
+      📊 Sensitivity: 0.8889
+
+📁 ENSEMBLE FOLD 3/5
+--------------------------------------------------
+   📊 Training: 63 samples Counter({1.0: 37, 0.0: 26})
+   📊 Testing:  16 samples Counter({1.0: 9, 0.0: 7})
+   🧠 Training ensemble SNN (10 models)...
+🔬 Generating augmented training data (factor=6)...
+   📊 Training data: 47 → 329 samples
+   ✅ Fold 3 Results:
+      📊 Test Accuracy: 0.7500
+      📊 F1-Score: 0.7500
+      📊 Precision: 0.8571
+      📊 Sensitivity: 0.6667
+
+📁 ENSEMBLE FOLD 4/5
+--------------------------------------------------
+   📊 Training: 63 samples Counter({1.0: 37, 0.0: 26})
+   📊 Testing:  16 samples Counter({1.0: 9, 0.0: 7})
+   🧠 Training ensemble SNN (10 models)...
+🔬 Generating augmented training data (factor=6)...
+   📊 Training data: 47 → 329 samples
+   ✅ Fold 4 Results:
+      📊 Test Accuracy: 0.8750
+      📊 F1-Score: 0.8889
+      📊 Precision: 0.8889
+      📊 Sensitivity: 0.8889
+
+📁 ENSEMBLE FOLD 5/5
+--------------------------------------------------
+   📊 Training: 64 samples Counter({1.0: 37, 0.0: 27})
+   📊 Testing:  15 samples Counter({1.0: 9, 0.0: 6})
+   🧠 Training ensemble SNN (10 models)...
+🔬 Generating augmented training data (factor=6)...
+   📊 Training data: 48 → 336 samples
+   ✅ Fold 5 Results:
+      📊 Test Accuracy: 0.8000
+      📊 F1-Score: 0.8421
+      📊 Precision: 0.8000
+      📊 Sensitivity: 0.8889
+
+📊 ENSEMBLE SNN CROSS VALIDATION RESULTS
+===========================================================================
+🎯 Mean Test Accuracy: 0.8225 ± 0.0735
+🎯 Mean F1-Score: 0.8481 ± 0.0646
+🎯 Overall Accuracy: 0.8228
+
+📈 DETAILED FOLD-BY-FOLD PERFORMANCE:
+Fold   Accuracy   F1-Score   Precision   Sensitivity 
+-----------------------------------------------------------------
+1      0.7500    0.8182    0.7500     0.9000
+2      0.9375    0.9412    1.0000     0.8889
+3      0.7500    0.7500    0.8571     0.6667
+4      0.8750    0.8889    0.8889     0.8889
+5      0.8000    0.8421    0.8000     0.8889
+
+📈 OVERALL CONFUSION MATRIX (Combined Folds):
+                    Predicted
+Actual    Background  Signal
+Background      26          7
+Signal           7         39
+
+🎯 COMPREHENSIVE PERFORMANCE METRICS:
+   📊 Sensitivity (Recall): 0.8478
+   📊 Specificity:          0.7879
+   📊 Precision:            0.8478
+   📊 F1-Score:            0.8478
+
+🥉 ENSEMBLE SNN ASSESSMENT: 📈 GOOD - Reliable ensemble performance!
+
+2️⃣ FINAL ENSEMBLE SNN TRAINING
+------------------------------------------------------------
+   👤 Human optimized split: 68% train / 32% test
+   📊 Training set: 53 samples Counter({1.0: 31, 0.0: 22})
+   📊 Test set: 26 samples Counter({1.0: 15, 0.0: 11})
+
+🎭 Training human ensemble SNN...
+🧠 Training Ensemble SNN Classifier: HumanEnsembleSNN
+   📊 Dataset: 53 samples, 32 features
+   🎯 Signal type: human
+   🎭 Ensemble size: 10 SNN models
+   🎯 Selecting most discriminative features...
+   🎯 Using 24 discriminative features
+🔬 Generating augmented training data (factor=6)...
+   📊 Training data: 39 → 273 samples
+   📊 Augmented training: 39 → 273 samples
+   📊 Validation set: 14 samples
+
+🎭 Training individual SNN models:
+   🧠 Training SNN model 1/10...
+      ✅ Model 1 validation accuracy: 0.6429
+   🧠 Training SNN model 2/10...
+      ✅ Model 2 validation accuracy: 0.6429
+   🧠 Training SNN model 3/10...
+      ✅ Model 3 validation accuracy: 0.5000
+   🧠 Training SNN model 4/10...
+      ✅ Model 4 validation accuracy: 0.6429
+   🧠 Training SNN model 5/10...
+      ✅ Model 5 validation accuracy: 0.6429
+   🧠 Training SNN model 6/10...
+      ✅ Model 6 validation accuracy: 0.6429
+   🧠 Training SNN model 7/10...
+      ✅ Model 7 validation accuracy: 0.6429
+   🧠 Training SNN model 8/10...
+      ✅ Model 8 validation accuracy: 0.6429
+   🧠 Training SNN model 9/10...
+      ✅ Model 9 validation accuracy: 0.6429
+   🧠 Training SNN model 10/10...
+      ✅ Model 10 validation accuracy: 0.7857
+
+✅ Ensemble SNN training completed!
+   📊 Individual model accuracy range: 0.5000 - 0.7857
+   🎭 Ensemble validation accuracy: 0.6429 (64.29%)
+   📈 GOOD: Strong ensemble performance!
+
+3️⃣ COMPREHENSIVE ENSEMBLE EVALUATION
+------------------------------------------------------------
+
+================================================================================
+ENSEMBLE SNN EVALUATION: HUMAN DETECTION SYSTEM
+================================================================================
+📊 DATASET CONFIGURATION:
+   🎯 Signal type: HUMAN detection
+   📈 Total samples: 79
+   🧪 Test set: 26 samples (32.9%)
+   🏋️ Training set: 53 samples (67.1%)
+   📊 Test distribution: Counter({1.0: 15, 0.0: 11})
+   🎯 Split assessment: ⚠️ Suboptimal (40% target for human)
+
+🧠 ENSEMBLE ARCHITECTURE:
+   🎭 Number of SNN models: 10
+   🎯 Signal optimization: human
+   📊 Input features: 32
+   🏗️ Feature selection: Active
+
+⚡ PERFORMANCE EVALUATION:
+   🎯 Test Accuracy: 0.8077 (80.77%)
+   ⚡ Prediction Speed: 0.001s total, 0.04ms per sample
+   🚀 Throughput: 23055.4 samples/second
+
+🔬 INDIVIDUAL MODEL ANALYSIS:
+   🧠 Model 1: 0.6154 accuracy, weight: 0.100
+   🧠 Model 2: 0.6923 accuracy, weight: 0.100
+   🧠 Model 3: 0.8077 accuracy, weight: 0.078
+   🧠 Model 4: 0.6923 accuracy, weight: 0.100
+   🧠 Model 5: 0.8077 accuracy, weight: 0.100
+   🧠 Model 6: 0.6154 accuracy, weight: 0.100
+   🧠 Model 7: 0.5769 accuracy, weight: 0.100
+   🧠 Model 8: 0.6923 accuracy, weight: 0.100
+   🧠 Model 9: 0.6923 accuracy, weight: 0.100
+   🧠 Model 10: 0.7308 accuracy, weight: 0.122
+   📊 Individual range: 0.5769 - 0.8077
+   📈 Ensemble improvement: +0.0000
+
+📋 DETAILED CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+  Background       0.88      0.64      0.74        11
+      Signal       0.78      0.93      0.85        15
+
+    accuracy                           0.81        26
+   macro avg       0.83      0.78      0.79        26
+weighted avg       0.82      0.81      0.80        26
+
+
+📈 CONFUSION MATRIX ANALYSIS:
+                    Predicted
+Actual    Background  Signal
+Background       7          4
+Signal           1         14
+
+🎯 COMPREHENSIVE METRICS:
+   📊 Sensitivity (Recall):    0.9333
+   📊 Specificity:             0.6364
+   📊 Precision (PPV):         0.7778
+   📊 Negative Pred. Value:    0.8750
+   📊 F1-Score:                0.8485
+   📊 Balanced Accuracy:       0.7848
+
+🎲 PREDICTION CONFIDENCE ANALYSIS:
+   🎯 High confidence (>80% or <20%): 16 samples (61.5%)
+   📊 Medium confidence:               5 samples (19.2%)
+   ⚠️  Low confidence (40-60%):        5 samples (19.2%)
+
+🥉 ENSEMBLE ASSESSMENT: 📈 GOOD - Acceptable performance!
+🚀 Production Deployment: ❌ REQUIRES OPTIMIZATION
+Plot saved to: /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/output_plots/classification_report_RAW_DATA_ENSEMBLE_SNN_CLASSIFICATION_REPORT_HUMAN_DETECTION_-_TEST_SET_EVALUATION.png
+Plot saved to: /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/output_plots/confusion_matrix_RAW_DATA_Ensemble_SNN_Confusion_Matrix_-_HUMAN_Detection.png
+
+4️⃣ MODEL DEPLOYMENT PREPARATION
+------------------------------------------------------------
+💾 Ensemble SNN Model saved: ensemble_snn_human_detector.pkl
+   🎯 Signal type: human
+   🎭 Ensemble size: 10 models
+   📊 Test accuracy: 0.8077
+   🚀 Deployment ready: ❌ No
+
+📊 TRAINING PIPELINE SUMMARY: HUMAN
+=====================================================================================
+🔬 Cross Validation:     0.8225 ± 0.0735
+🎯 Final Test:           0.8077
+📈 Ensemble Improvement: +0.0000
+⚡ Inference Speed:      0.04ms per sample
+🎛️ Model Consistency:    ✅ EXCELLENT (diff: -0.0148)
+🚀 Deployment Status:    ❌ OPTIMIZATION NEEDED
+🎉 Achievement Level:    📈 BASELINE PERFORMANCE
+   ✅ Raw data human binary: 0.8077 accuracy
+
+🎭 Training CAR binary ensemble with RAW DATA features...
+
+🧠 ENSEMBLE SNN TRAINING PIPELINE: CAR DETECTION
+=====================================================================================
+📊 DATASET ANALYSIS:
+   🎯 Signal type: CAR detection
+   📈 Total samples: 44
+   🧮 Feature dimensions: 32
+   🎵 Signal samples: 28
+   🔇 Background samples: 16
+   ⚖️  Class balance: 63.6% signal, 36.4% background
+
+1️⃣ ENSEMBLE CROSS VALIDATION ASSESSMENT
+------------------------------------------------------------
+   🚗 Car detection: 7-model ensemble configuration
+
+🔄 ENSEMBLE SNN CROSS VALIDATION: CAR
+===========================================================================
+📊 Dataset: 44 total samples with 32 features
+📊 Class distribution: Counter({1.0: 28, 0.0: 16})
+🔀 Performing 5-fold stratified cross validation
+🧠 Ensemble architecture: 7 SCTN models per fold
+🎯 Signal optimization: car detection
+
+📁 ENSEMBLE FOLD 1/5
+--------------------------------------------------
+   📊 Training: 35 samples Counter({1.0: 22, 0.0: 13})
+   📊 Testing:  9 samples Counter({1.0: 6, 0.0: 3})
+   🧠 Training ensemble SNN (7 models)...
+🔬 Generating augmented training data (factor=4)...
+   📊 Training data: 26 → 130 samples
+   ✅ Fold 1 Results:
+      📊 Test Accuracy: 1.0000
+      📊 F1-Score: 1.0000
+      📊 Precision: 1.0000
+      📊 Sensitivity: 1.0000
+
+📁 ENSEMBLE FOLD 2/5
+--------------------------------------------------
+   📊 Training: 35 samples Counter({1.0: 22, 0.0: 13})
+   📊 Testing:  9 samples Counter({1.0: 6, 0.0: 3})
+   🧠 Training ensemble SNN (7 models)...
+🔬 Generating augmented training data (factor=4)...
+   📊 Training data: 26 → 130 samples
+   ✅ Fold 2 Results:
+      📊 Test Accuracy: 0.7778
+      📊 F1-Score: 0.8571
+      📊 Precision: 0.7500
+      📊 Sensitivity: 1.0000
+
+📁 ENSEMBLE FOLD 3/5
+--------------------------------------------------
+   📊 Training: 35 samples Counter({1.0: 22, 0.0: 13})
+   📊 Testing:  9 samples Counter({1.0: 6, 0.0: 3})
+   🧠 Training ensemble SNN (7 models)...
+🔬 Generating augmented training data (factor=4)...
+   📊 Training data: 26 → 130 samples
+   ✅ Fold 3 Results:
+      📊 Test Accuracy: 1.0000
+      📊 F1-Score: 1.0000
+      📊 Precision: 1.0000
+      📊 Sensitivity: 1.0000
+
+📁 ENSEMBLE FOLD 4/5
+--------------------------------------------------
+   📊 Training: 35 samples Counter({1.0: 23, 0.0: 12})
+   📊 Testing:  9 samples Counter({1.0: 5, 0.0: 4})
+   🧠 Training ensemble SNN (7 models)...
+🔬 Generating augmented training data (factor=4)...
+   📊 Training data: 26 → 130 samples
+   ✅ Fold 4 Results:
+      📊 Test Accuracy: 1.0000
+      📊 F1-Score: 1.0000
+      📊 Precision: 1.0000
+      📊 Sensitivity: 1.0000
+
+📁 ENSEMBLE FOLD 5/5
+--------------------------------------------------
+   📊 Training: 36 samples Counter({1.0: 23, 0.0: 13})
+   📊 Testing:  8 samples Counter({1.0: 5, 0.0: 3})
+   🧠 Training ensemble SNN (7 models)...
+🔬 Generating augmented training data (factor=4)...
+   📊 Training data: 27 → 135 samples
+   ✅ Fold 5 Results:
+      📊 Test Accuracy: 1.0000
+      📊 F1-Score: 1.0000
+      📊 Precision: 1.0000
+      📊 Sensitivity: 1.0000
+
+📊 ENSEMBLE SNN CROSS VALIDATION RESULTS
+===========================================================================
+🎯 Mean Test Accuracy: 0.9556 ± 0.0889
+🎯 Mean F1-Score: 0.9714 ± 0.0571
+🎯 Overall Accuracy: 0.9545
+
+📈 DETAILED FOLD-BY-FOLD PERFORMANCE:
+Fold   Accuracy   F1-Score   Precision   Sensitivity 
+-----------------------------------------------------------------
+1      1.0000    1.0000    1.0000     1.0000
+2      0.7778    0.8571    0.7500     1.0000
+3      1.0000    1.0000    1.0000     1.0000
+4      1.0000    1.0000    1.0000     1.0000
+5      1.0000    1.0000    1.0000     1.0000
+
+📈 OVERALL CONFUSION MATRIX (Combined Folds):
+                    Predicted
+Actual    Background  Signal
+Background      14          2
+Signal           0         28
+
+🎯 COMPREHENSIVE PERFORMANCE METRICS:
+   📊 Sensitivity (Recall): 1.0000
+   📊 Specificity:          0.8750
+   📊 Precision:            0.9333
+   📊 F1-Score:            0.9655
+
+🏆 ENSEMBLE SNN ASSESSMENT: 🎉 OUTSTANDING - 95%+ ensemble performance achieved!
+
+2️⃣ FINAL ENSEMBLE SNN TRAINING
+------------------------------------------------------------
+   🚗 Car optimized split: 75% train / 25% test
+   📊 Training set: 33 samples Counter({1.0: 21, 0.0: 12})
+   📊 Test set: 11 samples Counter({1.0: 7, 0.0: 4})
+
+🎭 Training car ensemble SNN...
+🧠 Training Ensemble SNN Classifier: CarEnsembleSNN
+   📊 Dataset: 33 samples, 32 features
+   🎯 Signal type: car
+   🎭 Ensemble size: 7 SNN models
+   🎯 Selecting most discriminative features...
+   🎯 Using 24 discriminative features
+🔬 Generating augmented training data (factor=4)...
+   📊 Training data: 24 → 120 samples
+   📊 Augmented training: 24 → 120 samples
+   📊 Validation set: 9 samples
+
+🎭 Training individual SNN models:
+   🧠 Training SNN model 1/7...
+      ✅ Model 1 validation accuracy: 1.0000
+   🧠 Training SNN model 2/7...
+      ✅ Model 2 validation accuracy: 1.0000
+   🧠 Training SNN model 3/7...
+      ✅ Model 3 validation accuracy: 1.0000
+   🧠 Training SNN model 4/7...
+      ✅ Model 4 validation accuracy: 1.0000
+   🧠 Training SNN model 5/7...
+      ✅ Model 5 validation accuracy: 1.0000
+   🧠 Training SNN model 6/7...
+      ✅ Model 6 validation accuracy: 1.0000
+   🧠 Training SNN model 7/7...
+      ✅ Model 7 validation accuracy: 1.0000
+
+✅ Ensemble SNN training completed!
+   📊 Individual model accuracy range: 1.0000 - 1.0000
+   🎭 Ensemble validation accuracy: 1.0000 (100.00%)
+   🎉 TARGET ACHIEVED: 95%+ accuracy!
+
+3️⃣ COMPREHENSIVE ENSEMBLE EVALUATION
+------------------------------------------------------------
+
+================================================================================
+ENSEMBLE SNN EVALUATION: CAR DETECTION SYSTEM
+================================================================================
+📊 DATASET CONFIGURATION:
+   🎯 Signal type: CAR detection
+   📈 Total samples: 44
+   🧪 Test set: 11 samples (25.0%)
+   🏋️ Training set: 33 samples (75.0%)
+   📊 Test distribution: Counter({1.0: 7, 0.0: 4})
+   🎯 Split assessment: ⚠️ Suboptimal (34% target for car)
+
+🧠 ENSEMBLE ARCHITECTURE:
+   🎭 Number of SNN models: 7
+   🎯 Signal optimization: car
+   📊 Input features: 32
+   🏗️ Feature selection: Active
+
+⚡ PERFORMANCE EVALUATION:
+   🎯 Test Accuracy: 1.0000 (100.00%)
+   ⚡ Prediction Speed: 0.001s total, 0.07ms per sample
+   🚀 Throughput: 14979.7 samples/second
+
+🔬 INDIVIDUAL MODEL ANALYSIS:
+   🧠 Model 1: 0.8182 accuracy, weight: 0.143
+   🧠 Model 2: 0.8182 accuracy, weight: 0.143
+   🧠 Model 3: 1.0000 accuracy, weight: 0.143
+   🧠 Model 4: 0.7273 accuracy, weight: 0.143
+   🧠 Model 5: 1.0000 accuracy, weight: 0.143
+   🧠 Model 6: 1.0000 accuracy, weight: 0.143
+   🧠 Model 7: 1.0000 accuracy, weight: 0.143
+   📊 Individual range: 0.7273 - 1.0000
+   📈 Ensemble improvement: +0.0000
+
+📋 DETAILED CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+  Background       1.00      1.00      1.00         4
+      Signal       1.00      1.00      1.00         7
+
+    accuracy                           1.00        11
+   macro avg       1.00      1.00      1.00        11
+weighted avg       1.00      1.00      1.00        11
+
+
+📈 CONFUSION MATRIX ANALYSIS:
+                    Predicted
+Actual    Background  Signal
+Background       4          0
+Signal           0          7
+
+🎯 COMPREHENSIVE METRICS:
+   📊 Sensitivity (Recall):    1.0000
+   📊 Specificity:             1.0000
+   📊 Precision (PPV):         1.0000
+   📊 Negative Pred. Value:    1.0000
+   📊 F1-Score:                1.0000
+   📊 Balanced Accuracy:       1.0000
+
+🎲 PREDICTION CONFIDENCE ANALYSIS:
+   🎯 High confidence (>80% or <20%): 9 samples (81.8%)
+   📊 Medium confidence:               0 samples (0.0%)
+   ⚠️  Low confidence (40-60%):        2 samples (18.2%)
+
+🏆 ENSEMBLE ASSESSMENT: 🎉 OUTSTANDING - 95%+ accuracy achieved!
+🚀 Production Deployment: ✅ READY
+Plot saved to: /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/output_plots/classification_report_RAW_DATA_ENSEMBLE_SNN_CLASSIFICATION_REPORT_CAR_DETECTION_-_TEST_SET_EVALUATION.png
+Plot saved to: /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/output_plots/confusion_matrix_RAW_DATA_Ensemble_SNN_Confusion_Matrix_-_CAR_Detection.png
+
+4️⃣ MODEL DEPLOYMENT PREPARATION
+------------------------------------------------------------
+💾 Ensemble SNN Model saved: ensemble_snn_car_detector.pkl
+   🎯 Signal type: car
+   🎭 Ensemble size: 7 models
+   📊 Test accuracy: 1.0000
+   🚀 Deployment ready: ✅ Yes
+
+📊 TRAINING PIPELINE SUMMARY: CAR
+=====================================================================================
+🔬 Cross Validation:     0.9556 ± 0.0889
+🎯 Final Test:           1.0000
+📈 Ensemble Improvement: +0.0000
+⚡ Inference Speed:      0.07ms per sample
+🎛️ Model Consistency:    👍 GOOD (diff: +0.0444)
+🚀 Deployment Status:    ✅ READY
+🎉 Achievement Level:    🏆 OUTSTANDING PERFORMANCE!
+   ✅ Raw data car binary: 1.0000 accuracy
+✅ Raw data multi-class dataset loaded: 123 samples
+
+🎭 Training MULTI-CLASS ensemble with RAW DATA features...
+
+🧠 MULTI-CLASS ENSEMBLE SNN TRAINING PIPELINE
+==========================================================================================
+📊 MULTI-CLASS DATASET ANALYSIS:
+   🎯 Classification type: Multi-class (Human/Car/Background)
+   📈 Total samples: 123
+   🧮 Feature dimensions: 32
+   📊 Number of classes: 3
+   🏷️  Class names: ['Human', 'Car', 'Background']
+   📊 Class distribution: Counter({2.0: 49, 0.0: 46, 1.0: 28})
+      Human: 46 samples (37.4%)
+      Car: 28 samples (22.8%)
+      Background: 49 samples (39.8%)
+
+1️⃣ MULTI-CLASS ENSEMBLE CROSS VALIDATION ASSESSMENT
+----------------------------------------------------------------------
+   🎭 Multi-class ensemble: 8-model configuration
+   🎯 Optimization: Proven configuration for 90%+ target
+
+🔄 MULTI-CLASS ENSEMBLE SNN CROSS VALIDATION
+=====================================================================================
+📊 Dataset: 123 total samples with 32 features
+📊 Classes: 3 (['Human', 'Car', 'Background'])
+📊 Class distribution: Counter({2.0: 49, 0.0: 46, 1.0: 28})
+🔀 Performing 5-fold stratified cross validation
+🧠 Ensemble architecture: 8 SCTN models per fold
+
+📁 MULTI-CLASS ENSEMBLE FOLD 1/5
+------------------------------------------------------------
+   📊 Training: 98 samples Counter({2.0: 39, 0.0: 36, 1.0: 23})
+   📊 Testing:  25 samples Counter({0.0: 10, 2.0: 10, 1.0: 5})
+   🧠 Training multi-class ensemble SNN (8 models)...
+🔬 Generating augmented training data (factor=4)...
+   📊 Training data: 73 → 365 samples
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   ✅ Fold 1 Results:
+      📊 Test Accuracy: 0.6000
+      📊 Macro F1-Score: 0.5556
+      📊 Macro Precision: 0.5000
+      📊 Macro Recall: 0.6667
+
+📁 MULTI-CLASS ENSEMBLE FOLD 2/5
+------------------------------------------------------------
+   📊 Training: 98 samples Counter({2.0: 39, 0.0: 37, 1.0: 22})
+   📊 Testing:  25 samples Counter({2.0: 10, 0.0: 9, 1.0: 6})
+   🧠 Training multi-class ensemble SNN (8 models)...
+🔬 Generating augmented training data (factor=4)...
+   📊 Training data: 73 → 365 samples
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   ✅ Fold 2 Results:
+      📊 Test Accuracy: 0.4800
+      📊 Macro F1-Score: 0.3687
+      📊 Macro Precision: 0.4783
+      📊 Macro Recall: 0.4444
+
+📁 MULTI-CLASS ENSEMBLE FOLD 3/5
+------------------------------------------------------------
+   📊 Training: 98 samples Counter({2.0: 39, 0.0: 37, 1.0: 22})
+   📊 Testing:  25 samples Counter({2.0: 10, 0.0: 9, 1.0: 6})
+   🧠 Training multi-class ensemble SNN (8 models)...
+🔬 Generating augmented training data (factor=4)...
+   📊 Training data: 73 → 365 samples
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   ✅ Fold 3 Results:
+      📊 Test Accuracy: 0.5600
+      📊 Macro F1-Score: 0.4817
+      📊 Macro Precision: 0.4921
+      📊 Macro Recall: 0.5556
+
+📁 MULTI-CLASS ENSEMBLE FOLD 4/5
+------------------------------------------------------------
+   📊 Training: 99 samples Counter({2.0: 40, 0.0: 37, 1.0: 22})
+   📊 Testing:  24 samples Counter({0.0: 9, 2.0: 9, 1.0: 6})
+   🧠 Training multi-class ensemble SNN (8 models)...
+🔬 Generating augmented training data (factor=4)...
+   📊 Training data: 74 → 370 samples
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   ✅ Fold 4 Results:
+      📊 Test Accuracy: 0.6250
+      📊 Macro F1-Score: 0.5385
+      📊 Macro Precision: 0.4622
+      📊 Macro Recall: 0.6667
+
+📁 MULTI-CLASS ENSEMBLE FOLD 5/5
+------------------------------------------------------------
+   📊 Training: 99 samples Counter({2.0: 39, 0.0: 37, 1.0: 23})
+   📊 Testing:  24 samples Counter({2.0: 10, 0.0: 9, 1.0: 5})
+   🧠 Training multi-class ensemble SNN (8 models)...
+🔬 Generating augmented training data (factor=4)...
+   📊 Training data: 74 → 370 samples
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   🎯 Enhanced training: Human class weight = 2.0x
+   ✅ Fold 5 Results:
+      📊 Test Accuracy: 0.5833
+      📊 Macro F1-Score: 0.5173
+      📊 Macro Precision: 0.4444
+      📊 Macro Recall: 0.6333
+
+📊 MULTI-CLASS ENSEMBLE SNN CROSS VALIDATION RESULTS
+=====================================================================================
+🎯 Mean Test Accuracy: 0.5697 ± 0.0496
+🎯 Mean Macro F1-Score: 0.4923 ± 0.0666
+🎯 Overall Accuracy: 0.5691
+
+📈 DETAILED FOLD-BY-FOLD PERFORMANCE:
+Fold   Accuracy   Macro F1   Macro Prec   Macro Rec  
+-----------------------------------------------------------------
+1      0.6000    0.5556    0.5000      0.6667
+2      0.4800    0.3687    0.4783      0.4444
+3      0.5600    0.4817    0.4921      0.5556
+4      0.6250    0.5385    0.4622      0.6667
+5      0.5833    0.5173    0.4444      0.6333
+
+📈 OVERALL CONFUSION MATRIX (Combined Folds):
+Classes: ['Human', 'Car', 'Background']
+[[ 0  1 45]
+ [ 0 22  6]
+ [ 0  1 48]]
+
+🎯 PER-CLASS PERFORMANCE METRICS:
+Class        Precision   Recall    F1-Score   Support  
+-----------------------------------------------------------------
+Human        0.0000     0.0000   0.0000    46       
+Car          0.9167     0.7857   0.8462    28       
+Background   0.4848     0.9796   0.6486    49       
+
+📊 MULTI-CLASS ENSEMBLE ASSESSMENT: 📈 BASELINE - Multi-class model established!
+
+2️⃣ FINAL MULTI-CLASS ENSEMBLE SNN TRAINING
+----------------------------------------------------------------------
+   🎯 Multi-class optimized split: 70% train / 30% test
+   📊 Training set: 86 samples Counter({2.0: 34, 0.0: 32, 1.0: 20})
+   📊 Test set: 37 samples Counter({2.0: 15, 0.0: 14, 1.0: 8})
+
+🎭 Training multi-class ensemble SNN...
+🧠 Training Multi-Class Ensemble SNN Classifier: MultiClassEnsembleSNN
+   📊 Dataset: 86 samples, 32 features
+   🎯 Signal type: multiclass
+   🎭 Ensemble size: 8 SNN models
+   📈 Classes: 3
+   📊 Class distribution: Counter({2.0: 34, 0.0: 32, 1.0: 20})
+   🏷️  Class names: ['Human', 'Car', 'Background']
+   🎯 Selecting most discriminative features...
+   🎯 Using 24 discriminative features
+🔬 Generating augmented training data (factor=4)...
+   📊 Training data: 64 → 320 samples
+   📊 Augmented training: 64 → 320 samples
+   📊 Validation set: 22 samples
+
+🎭 Training individual multi-class SNN models:
+   🧠 Training multi-class SNN model 1/8...
+   🎯 Enhanced training: Human class weight = 2.0x
+      ✅ Model 1 validation accuracy: 0.5455
+   🧠 Training multi-class SNN model 2/8...
+   🎯 Enhanced training: Human class weight = 2.0x
+      ✅ Model 2 validation accuracy: 0.4091
+   🧠 Training multi-class SNN model 3/8...
+   🎯 Enhanced training: Human class weight = 2.0x
+      ✅ Model 3 validation accuracy: 0.5000
+   🧠 Training multi-class SNN model 4/8...
+   🎯 Enhanced training: Human class weight = 2.0x
+      ✅ Model 4 validation accuracy: 0.4545
+   🧠 Training multi-class SNN model 5/8...
+   🎯 Enhanced training: Human class weight = 2.0x
+      ✅ Model 5 validation accuracy: 0.4091
+   🧠 Training multi-class SNN model 6/8...
+   🎯 Enhanced training: Human class weight = 2.0x
+      ✅ Model 6 validation accuracy: 0.4091
+   🧠 Training multi-class SNN model 7/8...
+   🎯 Enhanced training: Human class weight = 2.0x
+      ✅ Model 7 validation accuracy: 0.5000
+   🧠 Training multi-class SNN model 8/8...
+   🎯 Enhanced training: Human class weight = 2.0x
+      ✅ Model 8 validation accuracy: 0.5455
+
+✅ Multi-Class Ensemble SNN training completed!
+   📊 Individual model accuracy range: 0.4091 - 0.5455
+   🎭 Ensemble validation accuracy: 0.5000 (50.00%)
+   📈 BASELINE: Multi-class performance established!
+
+3️⃣ COMPREHENSIVE MULTI-CLASS ENSEMBLE EVALUATION
+----------------------------------------------------------------------
+
+==========================================================================================
+MULTI-CLASS ENSEMBLE SNN EVALUATION: HUMAN/CAR/BACKGROUND CLASSIFICATION
+==========================================================================================
+📊 DATASET CONFIGURATION:
+   🎯 Classification: Multi-class (Human/Car/Background)
+   📈 Total samples: 123
+   🧪 Test set: 37 samples (30.1%)
+   🏋️ Training set: 86 samples (69.9%)
+   📊 Test distribution: Counter({2.0: 15, 0.0: 14, 1.0: 8})
+
+🧠 MULTI-CLASS ENSEMBLE ARCHITECTURE:
+   🎭 Number of SNN models: 8
+   🎯 Classification type: Multi-class
+   📊 Input features: 32
+   🏗️ Feature selection: Active
+   📈 Number of classes: 3
+   🏷️  Class names: ['Human', 'Car', 'Background']
+
+⚡ MULTI-CLASS PERFORMANCE EVALUATION:
+   🎯 Test Accuracy: 0.5405 (54.05%)
+   ⚡ Prediction Speed: 0.003s total, 0.07ms per sample
+   🚀 Throughput: 14582.7 samples/second
+
+🔬 INDIVIDUAL MULTI-CLASS MODEL ANALYSIS:
+   🧠 Model 1: 0.5676 accuracy, weight: 0.145
+   🧠 Model 2: 0.4054 accuracy, weight: 0.108
+   🧠 Model 3: 0.5405 accuracy, weight: 0.133
+   🧠 Model 4: 0.5405 accuracy, weight: 0.120
+   🧠 Model 5: 0.4865 accuracy, weight: 0.108
+   🧠 Model 6: 0.5405 accuracy, weight: 0.108
+   🧠 Model 7: 0.5135 accuracy, weight: 0.133
+   🧠 Model 8: 0.5676 accuracy, weight: 0.145
+   📊 Individual range: 0.4054 - 0.5676
+   📈 Ensemble improvement: -0.0270
+
+📋 DETAILED MULTI-CLASS CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+       Human       0.00      0.00      0.00        14
+         Car       1.00      0.62      0.77         8
+  Background       0.47      1.00      0.64        15
+
+    accuracy                           0.54        37
+   macro avg       0.49      0.54      0.47        37
+weighted avg       0.41      0.54      0.43        37
+
+
+📈 MULTI-CLASS CONFUSION MATRIX ANALYSIS:
+                    Predicted
+Actual      Human    Car    Background
+Human            0       0      14  
+Car              0       5       3  
+Background       0       0      15  
+
+🎯 COMPREHENSIVE MULTI-CLASS METRICS:
+   📊 Macro Precision:     0.4896
+   📊 Macro Recall:        0.5417
+   📊 Macro F1-Score:      0.4692
+   📊 Weighted Precision:  0.4062
+   📊 Weighted Recall:     0.5405
+   📊 Weighted F1-Score:   0.4251
+
+🎯 PER-CLASS PERFORMANCE BREAKDOWN:
+Class        Precision   Recall    F1-Score   Support  
+-----------------------------------------------------------------
+Human        0.0000     0.0000   0.0000    14       
+Car          1.0000     0.6250   0.7692    8        
+Background   0.4688     1.0000   0.6383    15       
+
+🎲 MULTI-CLASS PREDICTION CONFIDENCE ANALYSIS:
+   🎯 High confidence (>70%):    32 samples (86.5%)
+   📊 Medium confidence (50-70%): 5 samples (13.5%)
+   ⚠️  Low confidence (<50%):     0 samples (0.0%)
+
+🥉 MULTI-CLASS ENSEMBLE ASSESSMENT: 📈 DECENT - Above random performance!
+🚀 Production Deployment: ❌ REQUIRES OPTIMIZATION
+Plot saved to: /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/output_plots/classification_report_RAW_DATA_MULTI-CLASS_ENSEMBLE_SNN_CLASSIFICATION_REPORT_HUMAN_CAR_BACKGROUND_DETECTION_-_TEST_SET_EVALUATION.png
+Plot saved to: /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/output_plots/confusion_matrix_RAW_DATA_Multi-Class_Ensemble_SNN_Confusion_Matrix_-_Human_Car_Background.png
+
+4️⃣ MULTI-CLASS MODEL DEPLOYMENT PREPARATION
+----------------------------------------------------------------------
+💾 Ensemble SNN Model saved: ensemble_snn_multiclass_detector.pkl
+   🎯 Signal type: multiclass
+   🎭 Ensemble size: 8 models
+   📊 Test accuracy: 0.5405
+   🚀 Deployment ready: ❌ No
+
+📊 MULTI-CLASS TRAINING PIPELINE SUMMARY
+==========================================================================================
+🔬 Cross Validation:      0.5697 ± 0.0496
+🎯 Final Test Accuracy:   0.5405
+📊 Macro F1-Score:        0.4692
+📈 Ensemble Improvement:  -0.0270
+⚡ Inference Speed:       0.07ms per sample
+🎛️ Model Consistency:     ✅ EXCELLENT (diff: -0.0291)
+🚀 Deployment Status:     ❌ OPTIMIZATION NEEDED
+🎉 Achievement Level:     🥉 DECENT MULTI-CLASS PERFORMANCE!
+
+🎯 PER-CLASS PERFORMANCE SUMMARY:
+   Human: Precision=0.000, Recall=0.000, F1=0.000
+   Car: Precision=1.000, Recall=0.625, F1=0.769
+   Background: Precision=0.469, Recall=1.000, F1=0.638
+   ✅ Raw data multi-class: 0.5405 accuracy
+
+3️⃣ COMPREHENSIVE TRIPLE-FEATURE PERFORMANCE COMPARISON
+==============================================================================================================
+📊 ULTIMATE PERFORMANCE COMPARISON TABLE
+==============================================================================================================
+Classification  Method       Signal/Type  CV Accuracy  Test Accuracy  F1-Score   Winner  
+--------------------------------------------------------------------------------------------------------------
+Binary          Resonator    Human        0.8750     0.9231       0.9333   Resonator
+                Raw Data     Human        0.8225     0.8077       0.8485           
+--------------------------------------------------------------------------------------------------------------
+Binary          Resonator    Car          1.0000     1.0000       1.0000           
+                Raw Data     Car          0.9556     1.0000       1.0000           
+--------------------------------------------------------------------------------------------------------------
+Multi-Class     Resonator    3-Class      0.8000     0.9143       0.8963   Resonator
+                Raw Data     3-Class      0.5697     0.5405       0.4692           
+
+🏆 ULTIMATE FEATURE EXTRACTION CHAMPION
+==============================================================================================================
+📊 Method Comparison Summary:
+   🔬 Resonator-based wins: 2/2
+   📊 Raw data-based wins:  0/2
+
+🏆 ULTIMATE CHAMPION: RESONATOR-BASED FEATURES
+   🧠 Conclusion: Resonator processing provides superior feature extraction
+   💡 Recommendation: Use resonator-based features for production deployment
+
+📈 CLASSIFICATION TYPE PERFORMANCE ANALYSIS
+==============================================================================================================
+📊 Binary Classification Average:    0.9327
+📊 Multi-Class Classification Average: 0.7274
+🎯 Binary classification shows superior performance (+0.2053)
+💡 Consider separate binary models for maximum accuracy
+
+🚀 COMPREHENSIVE TRIPLE-FEATURE PIPELINE SUMMARY
+==============================================================================================================
+⏱️  Total Pipeline Time: 62.06 seconds
+🔬 Resonator Binary Models: 2
+📊 Raw Data Binary Models: 2
+🎭 Resonator Multi-Class: ✅
+🎭 Raw Data Multi-Class: ✅
+📈 Total Comparisons: 3
+🏆 Ultimate Champion: RESONATOR-BASED FEATURES
+
+✅ COMPREHENSIVE TRIPLE-FEATURE ENSEMBLE COMPARISON COMPLETE!
+   🎯 All classification approaches evaluated
+   📊 Binary vs Multi-class performance analyzed
+   🔬 Resonator vs Raw data features compared
+   🏆 Ultimate feature extraction champion determined
+   📁 All results and visualizations saved
+
+🎉 COMPREHENSIVE TRIPLE-FEATURE ENSEMBLE COMPARISON SUCCESS!
+==============================================================================================================
+   ⚡ Total Execution Time: 62.06 seconds
+   🏆 Ultimate Champion: RESONATOR-BASED FEATURES
+   📊 Method Wins: Resonator 2, Raw Data 0
+
+🔬 RESONATOR-BASED BINARY ENSEMBLE ACHIEVEMENTS:
+   🧠 Human Binary: 0.9231 accuracy
+   🧠 Car Binary: 1.0000 accuracy
+
+📊 RAW DATA-BASED BINARY ENSEMBLE ACHIEVEMENTS:
+   🧠 Human Binary: 0.8077 accuracy
+   🧠 Car Binary: 1.0000 accuracy
+
+🎭 RESONATOR-BASED MULTI-CLASS ENSEMBLE ACHIEVEMENTS:
+   🧠 Multi-Class: 0.9143 accuracy
+
+🎭 RAW DATA-BASED MULTI-CLASS ENSEMBLE ACHIEVEMENTS:
+   🧠 Multi-Class: 0.5405 accuracy
+
+📋 PRODUCTION DEPLOYMENT RECOMMENDATIONS:
+   🏆 ULTIMATE WINNER: Resonator-based features for production
+   💡 Consider resonator features for all classification tasks
+
+====================================================================================================
+📋 SYSTEM GUIDE
+====================================================================================================
+
+🧠 MAIN PIPELINE:
+   run_comprehensive_triple_feature_ensemble_pipeline()
+   🔬 Resonator-based feature extraction and ensemble SNN classification
+   📊 Raw data-based feature extraction and ensemble SNN classification
+   ⚖️  Side-by-side performance comparison with statistical analysis
+   🏆 Automatic winner determination and deployment recommendations
+
+🔬 RESONATOR-BASED FEATURES:
+   📊 32D spectral-temporal features from SCTN resonator processing
+   🎯 Optimized for maximum discrimination and accuracy
+   🎛️ LOAD_FROM_CHUNKED = True  → Pre-computed features (fast)
+   🔄 LOAD_FROM_CHUNKED = False → Full resonator processing
+
+📊 RAW DATA-BASED FEATURES:
+   📈 32D statistical-spectral features from direct signal analysis
+   ⚡ Time domain: Mean, std, skewness, kurtosis, energy, peaks
+   🎵 Frequency domain: Spectral centroid, bandwidth, rolloff, bands
+   🔊 Temporal dynamics: Envelope, periodicity, complexity, entropy
+
+🎯 ENSEMBLE ARCHITECTURE:
+   🎭 Multi-SCTN model voting with weighted consensus
+   🧮 Bootstrap sampling for model diversification
+   ⚡ Real-time inference with <3ms per sample
+   📊 Individual model contribution analysis
+   🏆 Comprehensive feature extraction method comparison
+====================================================================================================
+(sctn-env) nachman@nachman-cpu:~/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo$ 
