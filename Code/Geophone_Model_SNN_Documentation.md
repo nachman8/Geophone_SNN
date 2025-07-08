@@ -44,7 +44,8 @@ This system implements an advanced ensemble Spike Continuous Time Neuron (SCTN) 
 
 ### 2.1 Overall System Architecture
 
-```
+**System Data and Model Flow**
+```text
 Raw Geophone Data (CSV)
          ↓
 ┌─────────────────────────────────────────────────────────────┐
@@ -53,13 +54,13 @@ Raw Geophone Data (CSV)
 │     RESONATOR-BASED         │        RAW DATA-BASED         │
 │   (sctnN Processing)        │    (Direct Signal Analysis)   │
 │                             │                               │
-│ ┌─────────────────────────┐ │ ┌─────────────────────────────┐ │
-│ │ Resonator Grid          │ │ │ Time Domain Features        │ │
-│ │ Processing              │ │ │ Frequency Domain Features   │ │
-│ │ Spike Generation        │ │ │ Temporal Dynamics           │ │
-│ │ Spectral-Temporal       │ │ │ Advanced Discriminative     │ │
-│ │ Feature Extraction      │ │ │ Feature Extraction          │ │
-│ └─────────────────────────┘ │ └─────────────────────────────┘ │
+│ ┌─────────────────────────┐ │ ┌───────────────────────────┐ │
+│ │ Resonator Grid          │ │ │ Time Domain Features      │ │
+│ │ Processing              │ │ │ Frequency Domain Features │ │
+│ │ Spike Generation        │ │ │ Temporal Dynamics         │ │
+│ │ Spectral-Temporal       │ │ │ Advanced Discriminative   │ │
+│ │ Feature Extraction      │ │ │ Feature Extraction        │ │
+│ └─────────────────────────┘ │ └───────────────────────────┘ │
 │           ↓                 │           ↓                   │
 │    32D Feature Vector       │    32D Feature Vector         │
 └─────────────────────────────┴───────────────────────────────┘
@@ -69,13 +70,13 @@ Raw Geophone Data (CSV)
 ├─────────────────────────────┬───────────────────────────────┤
 │      BINARY MODELS          │      MULTI-CLASS MODELS       │
 │                             │                               │
-│ ┌─────────────────────────┐ │ ┌─────────────────────────────┐ │
-│ │ Human vs Background     │ │ │ Human vs Car vs Background  │ │
-│ │ Car vs Background       │ │ │ (3-class unified model)     │ │
-│ └─────────────────────────┘ │ └─────────────────────────────┘ │
+│ ┌─────────────────────────┐ │ ┌───────────────────────────┐ │
+│ │ Human vs Background     │ │ │ Human vs Car vs Background│ │
+│ │ Car vs Background       │ │ │ (3-class unified model)   │ │
+│ └─────────────────────────┘ │ └───────────────────────────┘ │
 │                             │                               │
 │ Each Model = Ensemble of    │ Each Model = Ensemble of      │
-│ 7-10 SCTN Networks         │ 8 SCTN Networks              │
+│ 7-10 SCTN Networks         │ 8 SCTN Networks               │
 │ + Weighted Voting          │ + Weighted Voting             │
 └─────────────────────────────┴───────────────────────────────┘
          ↓                               ↓
@@ -83,15 +84,16 @@ Raw Geophone Data (CSV)
 │                   FINAL PREDICTIONS                         │
 │                                                             │
 │ Binary: Human/Background, Car/Background                    │
-│ Multi-class: Human/Car/Background                          │
+│ Multi-class: Human/Car/Background                           │
 │                                                             │
-│ + Confidence Scores + Performance Metrics                  │
+│ + Confidence Scores + Performance Metrics                   │
 └─────────────────────────────────────────────────────────────┘
 ```
 
 ### 2.2 Data Flow Architecture
 
-```
+**Pipeline Overview**
+```text
 Input Data → Preprocessing → Feature Extraction → Model Training → Evaluation → Deployment
      ↓              ↓              ↓                ↓              ↓           ↓
 CSV Files → Normalization → 32D Features → Ensemble SNN → Cross-Val → Production Model
@@ -222,7 +224,7 @@ Network container managing multiple neurons and their connections:
 - **`log_out_spikes(neuron_id)`**: Records spike outputs
 
 **Network Structure:**
-```python
+```text
 # Resonator network topology:
 # Input → Encoding → Resonance → Enhancement → Output
 #              ↑_____Feedback_______|
@@ -267,7 +269,7 @@ Network container managing multiple neurons and their connections:
 ### 3.3 Integration Architecture
 
 #### 3.3.1 Signal Processing Pipeline
-```
+```text
 Raw Geophone Signal
         ↓
 sctnN Resonator Banks (10-100 Hz)
@@ -338,7 +340,7 @@ sctn_neuron.activation_function = BINARY  # Binary decision output
 #### 3.6.3 Signal Flow Through sctnN Components
 
 **Step 1: Resonator Bank Processing**
-```
+```text
 Raw Geophone Signal (1000 Hz)
         ↓ (resampling to 153600 Hz)
 sctnN.simple_resonator(freq=22.1) → Human footstep filter
@@ -349,12 +351,12 @@ Spike Patterns per Frequency Band
 ```
 
 **Step 2: Feature Extraction**
-```
+```text
 Spike Patterns → Spectral-Temporal Analysis → 32D Features
 ```
 
 **Step 3: SCTN Ensemble Classification**
-```
+```text
 32D Features → Multiple sctnN.SCTNeurons → Weighted Voting → Classification
 ```
 
@@ -596,7 +598,7 @@ def predict_ensemble(self, test_features):
 ### 5.1 Resonator-Based Feature Engine
 
 #### 5.1.1 Signal Processing Pipeline
-```
+```text
 Raw Signal → Normalization → Resampling → Resonator Grid → Spike Extraction → Spectrogram → Features
 ```
 
@@ -1098,7 +1100,7 @@ else:
 - **Feature Extraction**: Real-time 32D feature computation
 
 #### 11.2.2 Production Pipeline
-```
+```text
 Raw Signal Input → Preprocessing → Feature Extraction → Ensemble Prediction → Classification Output
      (1ms)           (0.5ms)         (1ms)              (0.5ms)            (immediately)
 ```
