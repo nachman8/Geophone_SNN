@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 *.log
 MyCode/output_plots/
+
+# Ignore large chunked_output directory
+MyCode/chunked_output/
