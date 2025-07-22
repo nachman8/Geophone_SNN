@@ -1,0 +1,3762 @@
+(sctn-env) nachman@nachman-cpu:~/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project$ /home/nachman/sctn-env/bin/python /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/Resonator_Processor.py
+🔄 RESONATOR-BASED SIGNAL PROCESSING SYSTEM
+================================================================================
+🔄 RESONATOR-BASED SIGNAL PROCESSING DEMO
+================================================================================
+🚗 Added car file: /home/nachman/data/car.csv
+🚙 Added car_nothing file: /home/nachman/data/car_nothing.csv
+👣 Added human file: /home/nachman/data/human.csv
+👤 Added human_nothing file: /home/nachman/data/human_nothing.csv
+
+📊 Processing file: /home/nachman/data/car.csv
+
+🔄 Processing and visualizing: /home/nachman/data/car.csv
+
+🔄 PROCESSING FILE IN CHUNKS: /home/nachman/data/car.csv
+============================================================
+File /home/nachman/data/car.csv has 840024 samples, estimated duration: 840.0 seconds
+Small leftover (0.02s) added to previous chunk
+File duration: 840.0s, will process in 28 optimized chunks
+  Chunk 0: 0.0s - 30.0s (30.0s)
+  Chunk 1: 30.0s - 60.0s (30.0s)
+  Chunk 2: 60.0s - 90.0s (30.0s)
+  Chunk 3: 90.0s - 120.0s (30.0s)
+  Chunk 4: 120.0s - 150.0s (30.0s)
+  Chunk 5: 150.0s - 180.0s (30.0s)
+  Chunk 6: 180.0s - 210.0s (30.0s)
+  Chunk 7: 210.0s - 240.0s (30.0s)
+  Chunk 8: 240.0s - 270.0s (30.0s)
+  Chunk 9: 270.0s - 300.0s (30.0s)
+  Chunk 10: 300.0s - 330.0s (30.0s)
+  Chunk 11: 330.0s - 360.0s (30.0s)
+  Chunk 12: 360.0s - 390.0s (30.0s)
+  Chunk 13: 390.0s - 420.0s (30.0s)
+  Chunk 14: 420.0s - 450.0s (30.0s)
+  Chunk 15: 450.0s - 480.0s (30.0s)
+  Chunk 16: 480.0s - 510.0s (30.0s)
+  Chunk 17: 510.0s - 540.0s (30.0s)
+  Chunk 18: 540.0s - 570.0s (30.0s)
+  Chunk 19: 570.0s - 600.0s (30.0s)
+  Chunk 20: 600.0s - 630.0s (30.0s)
+  Chunk 21: 630.0s - 660.0s (30.0s)
+  Chunk 22: 660.0s - 690.0s (30.0s)
+  Chunk 23: 690.0s - 720.0s (30.0s)
+  Chunk 24: 720.0s - 750.0s (30.0s)
+  Chunk 25: 750.0s - 780.0s (30.0s)
+  Chunk 26: 780.0s - 810.0s (30.0s)
+  Chunk 27: 810.0s - 840.0s (30.0s)
+
+--- Processing chunk 0: 0.0s-30.0s ---
+Loaded chunk 0.0-30.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 0 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:39 | Complete!                        
+
+Creating spike spectrograms for chunk 0...
+Computing FFT spectrogram for chunk 0...
+Chunk 0 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_0/chunk_0_visualization.png
+✅ Chunk 0 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_0/chunk_0_data.pkl
+
+--- Processing chunk 1: 30.0s-60.0s ---
+Loaded chunk 30.0-60.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 1 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:35 | Complete!                        
+
+Creating spike spectrograms for chunk 1...
+Computing FFT spectrogram for chunk 1...
+Chunk 1 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_1/chunk_1_visualization.png
+✅ Chunk 1 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_1/chunk_1_data.pkl
+
+--- Processing chunk 2: 60.0s-90.0s ---
+Loaded chunk 60.0-90.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 2 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:45 | Complete!                        
+
+Creating spike spectrograms for chunk 2...
+Computing FFT spectrogram for chunk 2...
+Chunk 2 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_2/chunk_2_visualization.png
+✅ Chunk 2 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_2/chunk_2_data.pkl
+
+--- Processing chunk 3: 90.0s-120.0s ---
+Loaded chunk 90.0-120.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 3 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:48 | Complete!                        
+
+Creating spike spectrograms for chunk 3...
+Computing FFT spectrogram for chunk 3...
+Chunk 3 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_3/chunk_3_visualization.png
+✅ Chunk 3 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_3/chunk_3_data.pkl
+
+--- Processing chunk 4: 120.0s-150.0s ---
+Loaded chunk 120.0-150.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 4 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:50 | Complete!                        
+
+Creating spike spectrograms for chunk 4...
+Computing FFT spectrogram for chunk 4...
+Chunk 4 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_4/chunk_4_visualization.png
+✅ Chunk 4 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_4/chunk_4_data.pkl
+
+--- Processing chunk 5: 150.0s-180.0s ---
+Loaded chunk 150.0-180.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 5 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:42 | Complete!                        
+
+Creating spike spectrograms for chunk 5...
+Computing FFT spectrogram for chunk 5...
+Chunk 5 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_5/chunk_5_visualization.png
+✅ Chunk 5 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_5/chunk_5_data.pkl
+
+--- Processing chunk 6: 180.0s-210.0s ---
+Loaded chunk 180.0-210.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 6 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:47 | Complete!                        
+
+Creating spike spectrograms for chunk 6...
+Computing FFT spectrogram for chunk 6...
+Chunk 6 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_6/chunk_6_visualization.png
+✅ Chunk 6 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_6/chunk_6_data.pkl
+
+--- Processing chunk 7: 210.0s-240.0s ---
+Loaded chunk 210.0-240.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 7 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:55 | Complete!                        
+
+Creating spike spectrograms for chunk 7...
+Computing FFT spectrogram for chunk 7...
+Chunk 7 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_7/chunk_7_visualization.png
+✅ Chunk 7 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_7/chunk_7_data.pkl
+
+--- Processing chunk 8: 240.0s-270.0s ---
+Loaded chunk 240.0-270.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 8 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:51 | Complete!                        
+
+Creating spike spectrograms for chunk 8...
+Computing FFT spectrogram for chunk 8...
+Chunk 8 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_8/chunk_8_visualization.png
+✅ Chunk 8 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_8/chunk_8_data.pkl
+
+--- Processing chunk 9: 270.0s-300.0s ---
+Loaded chunk 270.0-300.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 9 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:57 | Complete!                        
+
+Creating spike spectrograms for chunk 9...
+Computing FFT spectrogram for chunk 9...
+Chunk 9 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_9/chunk_9_visualization.png
+✅ Chunk 9 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_9/chunk_9_data.pkl
+
+--- Processing chunk 10: 300.0s-330.0s ---
+Loaded chunk 300.0-330.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 10 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 4:01 | Complete!                        
+
+Creating spike spectrograms for chunk 10...
+Computing FFT spectrogram for chunk 10...
+Chunk 10 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_10/chunk_10_visualization.png
+✅ Chunk 10 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_10/chunk_10_data.pkl
+
+--- Processing chunk 11: 330.0s-360.0s ---
+Loaded chunk 330.0-360.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 11 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:48 | Complete!                        
+
+Creating spike spectrograms for chunk 11...
+Computing FFT spectrogram for chunk 11...
+Chunk 11 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_11/chunk_11_visualization.png
+✅ Chunk 11 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_11/chunk_11_data.pkl
+
+--- Processing chunk 12: 360.0s-390.0s ---
+Loaded chunk 360.0-390.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 12 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:49 | Complete!                        
+
+Creating spike spectrograms for chunk 12...
+Computing FFT spectrogram for chunk 12...
+Chunk 12 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_12/chunk_12_visualization.png
+✅ Chunk 12 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_12/chunk_12_data.pkl
+
+--- Processing chunk 13: 390.0s-420.0s ---
+Loaded chunk 390.0-420.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 13 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:48 | Complete!                        
+
+Creating spike spectrograms for chunk 13...
+Computing FFT spectrogram for chunk 13...
+Chunk 13 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_13/chunk_13_visualization.png
+✅ Chunk 13 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_13/chunk_13_data.pkl
+
+--- Processing chunk 14: 420.0s-450.0s ---
+Loaded chunk 420.0-450.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 14 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:45 | Complete!                        
+
+Creating spike spectrograms for chunk 14...
+Computing FFT spectrogram for chunk 14...
+Chunk 14 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_14/chunk_14_visualization.png
+✅ Chunk 14 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_14/chunk_14_data.pkl
+
+--- Processing chunk 15: 450.0s-480.0s ---
+Loaded chunk 450.0-480.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 15 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 4:00 | Complete!                        
+
+Creating spike spectrograms for chunk 15...
+Computing FFT spectrogram for chunk 15...
+Chunk 15 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_15/chunk_15_visualization.png
+✅ Chunk 15 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_15/chunk_15_data.pkl
+
+--- Processing chunk 16: 480.0s-510.0s ---
+Loaded chunk 480.0-510.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 16 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:53 | Complete!                        
+
+Creating spike spectrograms for chunk 16...
+Computing FFT spectrogram for chunk 16...
+Chunk 16 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_16/chunk_16_visualization.png
+✅ Chunk 16 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_16/chunk_16_data.pkl
+
+--- Processing chunk 17: 510.0s-540.0s ---
+Loaded chunk 510.0-540.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 17 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:53 | Complete!                        
+
+Creating spike spectrograms for chunk 17...
+Computing FFT spectrogram for chunk 17...
+Chunk 17 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_17/chunk_17_visualization.png
+✅ Chunk 17 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_17/chunk_17_data.pkl
+
+--- Processing chunk 18: 540.0s-570.0s ---
+Loaded chunk 540.0-570.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 18 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:56 | Complete!                        
+
+Creating spike spectrograms for chunk 18...
+Computing FFT spectrogram for chunk 18...
+Chunk 18 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_18/chunk_18_visualization.png
+✅ Chunk 18 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_18/chunk_18_data.pkl
+
+--- Processing chunk 19: 570.0s-600.0s ---
+Loaded chunk 570.0-600.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 19 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:40 | Complete!                        
+
+Creating spike spectrograms for chunk 19...
+Computing FFT spectrogram for chunk 19...
+Chunk 19 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_19/chunk_19_visualization.png
+✅ Chunk 19 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_19/chunk_19_data.pkl
+
+--- Processing chunk 20: 600.0s-630.0s ---
+Loaded chunk 600.0-630.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 20 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:54 | Complete!                        
+
+Creating spike spectrograms for chunk 20...
+Computing FFT spectrogram for chunk 20...
+Chunk 20 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_20/chunk_20_visualization.png
+✅ Chunk 20 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_20/chunk_20_data.pkl
+
+--- Processing chunk 21: 630.0s-660.0s ---
+Loaded chunk 630.0-660.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 21 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:45 | Complete!                        
+
+Creating spike spectrograms for chunk 21...
+Computing FFT spectrogram for chunk 21...
+Chunk 21 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_21/chunk_21_visualization.png
+✅ Chunk 21 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_21/chunk_21_data.pkl
+
+--- Processing chunk 22: 660.0s-690.0s ---
+Loaded chunk 660.0-690.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 22 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:42 | Complete!                        
+
+Creating spike spectrograms for chunk 22...
+Computing FFT spectrogram for chunk 22...
+Chunk 22 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_22/chunk_22_visualization.png
+✅ Chunk 22 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_22/chunk_22_data.pkl
+
+--- Processing chunk 23: 690.0s-720.0s ---
+Loaded chunk 690.0-720.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 23 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:39 | Complete!                        
+
+Creating spike spectrograms for chunk 23...
+Computing FFT spectrogram for chunk 23...
+Chunk 23 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_23/chunk_23_visualization.png
+✅ Chunk 23 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_23/chunk_23_data.pkl
+
+--- Processing chunk 24: 720.0s-750.0s ---
+Loaded chunk 720.0-750.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 24 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:44 | Complete!                        
+
+Creating spike spectrograms for chunk 24...
+Computing FFT spectrogram for chunk 24...
+Chunk 24 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_24/chunk_24_visualization.png
+✅ Chunk 24 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_24/chunk_24_data.pkl
+
+--- Processing chunk 25: 750.0s-780.0s ---
+Loaded chunk 750.0-780.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 25 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:37 | Complete!                        
+
+Creating spike spectrograms for chunk 25...
+Computing FFT spectrogram for chunk 25...
+Chunk 25 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_25/chunk_25_visualization.png
+✅ Chunk 25 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_25/chunk_25_data.pkl
+
+--- Processing chunk 26: 780.0s-810.0s ---
+Loaded chunk 780.0-810.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 26 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:52 | Complete!                        
+
+Creating spike spectrograms for chunk 26...
+Computing FFT spectrogram for chunk 26...
+Chunk 26 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_26/chunk_26_visualization.png
+✅ Chunk 26 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_26/chunk_26_data.pkl
+
+--- Processing chunk 27: 810.0s-840.0s ---
+Loaded chunk 810.0-840.0s: 30024 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 27 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,611,686 samples @ 153600 Hz
+  Resonator 1: 4,611,686 samples @ 153600 Hz
+  Resonator 2: 4,611,686 samples @ 153600 Hz
+  Resonator 3: 4,611,686 samples @ 153600 Hz
+  Resonator 4: 4,611,686 samples @ 153600 Hz
+  Resonator 5: 4,611,686 samples @ 153600 Hz
+  Resonator 6: 4,611,686 samples @ 153600 Hz
+  Resonator 7: 4,611,686 samples @ 153600 Hz
+  Resonator 8: 4,611,686 samples @ 153600 Hz
+  Resonator 9: 4,611,686 samples @ 153600 Hz
+  Resonator 10: 4,611,686 samples @ 153600 Hz
+  Resonator 11: 4,611,686 samples @ 153600 Hz
+  Resonator 12: 4,611,686 samples @ 153600 Hz
+  Resonator 13: 4,611,686 samples @ 153600 Hz
+  Resonator 14: 4,611,686 samples @ 153600 Hz
+Total work: 69,175,290 samples
+[██████████████████████████████] 100% | 3:44 | Complete!                        
+
+Creating spike spectrograms for chunk 27...
+Computing FFT spectrogram for chunk 27...
+Chunk 27 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_27/chunk_27_visualization.png
+✅ Chunk 27 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_27/chunk_27_data.pkl
+
+✅ File /home/nachman/data/car.csv processed in 28 chunks
+Chunk index saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car/chunk_index.pkl
+
+✅ Visualization complete. Results saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/output_plots
+
+📊 Processing file: /home/nachman/data/car_nothing.csv
+
+🔄 Processing and visualizing: /home/nachman/data/car_nothing.csv
+
+🔄 PROCESSING FILE IN CHUNKS: /home/nachman/data/car_nothing.csv
+============================================================
+File /home/nachman/data/car_nothing.csv has 480036 samples, estimated duration: 480.0 seconds
+Small leftover (0.04s) added to previous chunk
+File duration: 480.0s, will process in 16 optimized chunks
+  Chunk 0: 0.0s - 30.0s (30.0s)
+  Chunk 1: 30.0s - 60.0s (30.0s)
+  Chunk 2: 60.0s - 90.0s (30.0s)
+  Chunk 3: 90.0s - 120.0s (30.0s)
+  Chunk 4: 120.0s - 150.0s (30.0s)
+  Chunk 5: 150.0s - 180.0s (30.0s)
+  Chunk 6: 180.0s - 210.0s (30.0s)
+  Chunk 7: 210.0s - 240.0s (30.0s)
+  Chunk 8: 240.0s - 270.0s (30.0s)
+  Chunk 9: 270.0s - 300.0s (30.0s)
+  Chunk 10: 300.0s - 330.0s (30.0s)
+  Chunk 11: 330.0s - 360.0s (30.0s)
+  Chunk 12: 360.0s - 390.0s (30.0s)
+  Chunk 13: 390.0s - 420.0s (30.0s)
+  Chunk 14: 420.0s - 450.0s (30.0s)
+  Chunk 15: 450.0s - 480.0s (30.0s)
+
+--- Processing chunk 0: 0.0s-30.0s ---
+Loaded chunk 0.0-30.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 0 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:54 | Complete!                        
+
+Creating spike spectrograms for chunk 0...
+Computing FFT spectrogram for chunk 0...
+Chunk 0 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_0/chunk_0_visualization.png
+✅ Chunk 0 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_0/chunk_0_data.pkl
+
+--- Processing chunk 1: 30.0s-60.0s ---
+Loaded chunk 30.0-60.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 1 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:42 | Complete!                        
+
+Creating spike spectrograms for chunk 1...
+Computing FFT spectrogram for chunk 1...
+Chunk 1 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_1/chunk_1_visualization.png
+✅ Chunk 1 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_1/chunk_1_data.pkl
+
+--- Processing chunk 2: 60.0s-90.0s ---
+Loaded chunk 60.0-90.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 2 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:50 | Complete!                        
+
+Creating spike spectrograms for chunk 2...
+Computing FFT spectrogram for chunk 2...
+Chunk 2 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_2/chunk_2_visualization.png
+✅ Chunk 2 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_2/chunk_2_data.pkl
+
+--- Processing chunk 3: 90.0s-120.0s ---
+Loaded chunk 90.0-120.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 3 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:38 | Complete!                        
+
+Creating spike spectrograms for chunk 3...
+Computing FFT spectrogram for chunk 3...
+Chunk 3 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_3/chunk_3_visualization.png
+✅ Chunk 3 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_3/chunk_3_data.pkl
+
+--- Processing chunk 4: 120.0s-150.0s ---
+Loaded chunk 120.0-150.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 4 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:50 | Complete!                        
+
+Creating spike spectrograms for chunk 4...
+Computing FFT spectrogram for chunk 4...
+Chunk 4 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_4/chunk_4_visualization.png
+✅ Chunk 4 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_4/chunk_4_data.pkl
+
+--- Processing chunk 5: 150.0s-180.0s ---
+Loaded chunk 150.0-180.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 5 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:51 | Complete!                        
+
+Creating spike spectrograms for chunk 5...
+Computing FFT spectrogram for chunk 5...
+Chunk 5 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_5/chunk_5_visualization.png
+✅ Chunk 5 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_5/chunk_5_data.pkl
+
+--- Processing chunk 6: 180.0s-210.0s ---
+Loaded chunk 180.0-210.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 6 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:46 | Complete!                        
+
+Creating spike spectrograms for chunk 6...
+Computing FFT spectrogram for chunk 6...
+Chunk 6 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_6/chunk_6_visualization.png
+✅ Chunk 6 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_6/chunk_6_data.pkl
+
+--- Processing chunk 7: 210.0s-240.0s ---
+Loaded chunk 210.0-240.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 7 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:48 | Complete!                        
+
+Creating spike spectrograms for chunk 7...
+Computing FFT spectrogram for chunk 7...
+Chunk 7 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_7/chunk_7_visualization.png
+✅ Chunk 7 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_7/chunk_7_data.pkl
+
+--- Processing chunk 8: 240.0s-270.0s ---
+Loaded chunk 240.0-270.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 8 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:47 | Complete!                        
+
+Creating spike spectrograms for chunk 8...
+Computing FFT spectrogram for chunk 8...
+Chunk 8 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_8/chunk_8_visualization.png
+✅ Chunk 8 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_8/chunk_8_data.pkl
+
+--- Processing chunk 9: 270.0s-300.0s ---
+Loaded chunk 270.0-300.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 9 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:41 | Complete!                        
+
+Creating spike spectrograms for chunk 9...
+Computing FFT spectrogram for chunk 9...
+Chunk 9 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_9/chunk_9_visualization.png
+✅ Chunk 9 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_9/chunk_9_data.pkl
+
+--- Processing chunk 10: 300.0s-330.0s ---
+Loaded chunk 300.0-330.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 10 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:55 | Complete!                        
+
+Creating spike spectrograms for chunk 10...
+Computing FFT spectrogram for chunk 10...
+Chunk 10 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_10/chunk_10_visualization.png
+✅ Chunk 10 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_10/chunk_10_data.pkl
+
+--- Processing chunk 11: 330.0s-360.0s ---
+Loaded chunk 330.0-360.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 11 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:44 | Complete!                        
+
+Creating spike spectrograms for chunk 11...
+Computing FFT spectrogram for chunk 11...
+Chunk 11 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_11/chunk_11_visualization.png
+✅ Chunk 11 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_11/chunk_11_data.pkl
+
+--- Processing chunk 12: 360.0s-390.0s ---
+Loaded chunk 360.0-390.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 12 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:53 | Complete!                        
+
+Creating spike spectrograms for chunk 12...
+Computing FFT spectrogram for chunk 12...
+Chunk 12 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_12/chunk_12_visualization.png
+✅ Chunk 12 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_12/chunk_12_data.pkl
+
+--- Processing chunk 13: 390.0s-420.0s ---
+Loaded chunk 390.0-420.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 13 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:56 | Complete!                        
+
+Creating spike spectrograms for chunk 13...
+Computing FFT spectrogram for chunk 13...
+Chunk 13 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_13/chunk_13_visualization.png
+✅ Chunk 13 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_13/chunk_13_data.pkl
+
+--- Processing chunk 14: 420.0s-450.0s ---
+Loaded chunk 420.0-450.0s: 30000 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 14 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+  Resonator 10: 4,608,000 samples @ 153600 Hz
+  Resonator 11: 4,608,000 samples @ 153600 Hz
+  Resonator 12: 4,608,000 samples @ 153600 Hz
+  Resonator 13: 4,608,000 samples @ 153600 Hz
+  Resonator 14: 4,608,000 samples @ 153600 Hz
+Total work: 69,120,000 samples
+[██████████████████████████████] 100% | 3:45 | Complete!                        
+
+Creating spike spectrograms for chunk 14...
+Computing FFT spectrogram for chunk 14...
+Chunk 14 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_14/chunk_14_visualization.png
+✅ Chunk 14 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_14/chunk_14_data.pkl
+
+--- Processing chunk 15: 450.0s-480.0s ---
+Loaded chunk 450.0-480.0s: 30036 samples
+Detected CAR data - using car-optimized resonator grid
+Processing chunk 15 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 15 resonators in parallel across all clock frequencies
+
+Processing 15 resonators in parallel:
+  Resonator 0: 4,613,529 samples @ 153600 Hz
+  Resonator 1: 4,613,529 samples @ 153600 Hz
+  Resonator 2: 4,613,529 samples @ 153600 Hz
+  Resonator 3: 4,613,529 samples @ 153600 Hz
+  Resonator 4: 4,613,529 samples @ 153600 Hz
+  Resonator 5: 4,613,529 samples @ 153600 Hz
+  Resonator 6: 4,613,529 samples @ 153600 Hz
+  Resonator 7: 4,613,529 samples @ 153600 Hz
+  Resonator 8: 4,613,529 samples @ 153600 Hz
+  Resonator 9: 4,613,529 samples @ 153600 Hz
+  Resonator 10: 4,613,529 samples @ 153600 Hz
+  Resonator 11: 4,613,529 samples @ 153600 Hz
+  Resonator 12: 4,613,529 samples @ 153600 Hz
+  Resonator 13: 4,613,529 samples @ 153600 Hz
+  Resonator 14: 4,613,529 samples @ 153600 Hz
+Total work: 69,202,935 samples
+[██████████████████████████████] 100% | 3:52 | Complete!                        
+
+Creating spike spectrograms for chunk 15...
+Computing FFT spectrogram for chunk 15...
+Chunk 15 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_15/chunk_15_visualization.png
+✅ Chunk 15 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_15/chunk_15_data.pkl
+
+✅ File /home/nachman/data/car_nothing.csv processed in 16 chunks
+Chunk index saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/car_nothing/chunk_index.pkl
+
+✅ Visualization complete. Results saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/output_plots
+
+📊 Processing file: /home/nachman/data/human.csv
+
+🔄 Processing and visualizing: /home/nachman/data/human.csv
+
+🔄 PROCESSING FILE IN CHUNKS: /home/nachman/data/human.csv
+============================================================
+File /home/nachman/data/human.csv has 1400040 samples, estimated duration: 1400.0 seconds
+File duration: 1400.0s, will process in 47 optimized chunks
+  Chunk 0: 0.0s - 30.0s (30.0s)
+  Chunk 1: 30.0s - 60.0s (30.0s)
+  Chunk 2: 60.0s - 90.0s (30.0s)
+  Chunk 3: 90.0s - 120.0s (30.0s)
+  Chunk 4: 120.0s - 150.0s (30.0s)
+  Chunk 5: 150.0s - 180.0s (30.0s)
+  Chunk 6: 180.0s - 210.0s (30.0s)
+  Chunk 7: 210.0s - 240.0s (30.0s)
+  Chunk 8: 240.0s - 270.0s (30.0s)
+  Chunk 9: 270.0s - 300.0s (30.0s)
+  Chunk 10: 300.0s - 330.0s (30.0s)
+  Chunk 11: 330.0s - 360.0s (30.0s)
+  Chunk 12: 360.0s - 390.0s (30.0s)
+  Chunk 13: 390.0s - 420.0s (30.0s)
+  Chunk 14: 420.0s - 450.0s (30.0s)
+  Chunk 15: 450.0s - 480.0s (30.0s)
+  Chunk 16: 480.0s - 510.0s (30.0s)
+  Chunk 17: 510.0s - 540.0s (30.0s)
+  Chunk 18: 540.0s - 570.0s (30.0s)
+  Chunk 19: 570.0s - 600.0s (30.0s)
+  Chunk 20: 600.0s - 630.0s (30.0s)
+  Chunk 21: 630.0s - 660.0s (30.0s)
+  Chunk 22: 660.0s - 690.0s (30.0s)
+  Chunk 23: 690.0s - 720.0s (30.0s)
+  Chunk 24: 720.0s - 750.0s (30.0s)
+  Chunk 25: 750.0s - 780.0s (30.0s)
+  Chunk 26: 780.0s - 810.0s (30.0s)
+  Chunk 27: 810.0s - 840.0s (30.0s)
+  Chunk 28: 840.0s - 870.0s (30.0s)
+  Chunk 29: 870.0s - 900.0s (30.0s)
+  Chunk 30: 900.0s - 930.0s (30.0s)
+  Chunk 31: 930.0s - 960.0s (30.0s)
+  Chunk 32: 960.0s - 990.0s (30.0s)
+  Chunk 33: 990.0s - 1020.0s (30.0s)
+  Chunk 34: 1020.0s - 1050.0s (30.0s)
+  Chunk 35: 1050.0s - 1080.0s (30.0s)
+  Chunk 36: 1080.0s - 1110.0s (30.0s)
+  Chunk 37: 1110.0s - 1140.0s (30.0s)
+  Chunk 38: 1140.0s - 1170.0s (30.0s)
+  Chunk 39: 1170.0s - 1200.0s (30.0s)
+  Chunk 40: 1200.0s - 1230.0s (30.0s)
+  Chunk 41: 1230.0s - 1260.0s (30.0s)
+  Chunk 42: 1260.0s - 1290.0s (30.0s)
+  Chunk 43: 1290.0s - 1320.0s (30.0s)
+  Chunk 44: 1320.0s - 1350.0s (30.0s)
+  Chunk 45: 1350.0s - 1380.0s (30.0s)
+  Chunk 46: 1380.0s - 1400.0s (20.0s)
+
+--- Processing chunk 0: 0.0s-30.0s ---
+Loaded chunk 0.0-30.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 0 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:42 | Complete!                        
+
+Creating spike spectrograms for chunk 0...
+Computing FFT spectrogram for chunk 0...
+Chunk 0 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_0/chunk_0_visualization.png
+✅ Chunk 0 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_0/chunk_0_data.pkl
+
+--- Processing chunk 1: 30.0s-60.0s ---
+Loaded chunk 30.0-60.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 1 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:45 | Complete!                        
+
+Creating spike spectrograms for chunk 1...
+Computing FFT spectrogram for chunk 1...
+Chunk 1 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_1/chunk_1_visualization.png
+✅ Chunk 1 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_1/chunk_1_data.pkl
+
+--- Processing chunk 2: 60.0s-90.0s ---
+Loaded chunk 60.0-90.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 2 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:42 | Complete!                        
+
+Creating spike spectrograms for chunk 2...
+Computing FFT spectrogram for chunk 2...
+Chunk 2 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_2/chunk_2_visualization.png
+✅ Chunk 2 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_2/chunk_2_data.pkl
+
+--- Processing chunk 3: 90.0s-120.0s ---
+Loaded chunk 90.0-120.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 3 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:40 | Complete!                        
+
+Creating spike spectrograms for chunk 3...
+Computing FFT spectrogram for chunk 3...
+Chunk 3 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_3/chunk_3_visualization.png
+✅ Chunk 3 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_3/chunk_3_data.pkl
+
+--- Processing chunk 4: 120.0s-150.0s ---
+Loaded chunk 120.0-150.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 4 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 3:00 | Complete!                        
+
+Creating spike spectrograms for chunk 4...
+Computing FFT spectrogram for chunk 4...
+Chunk 4 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_4/chunk_4_visualization.png
+✅ Chunk 4 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_4/chunk_4_data.pkl
+
+--- Processing chunk 5: 150.0s-180.0s ---
+Loaded chunk 150.0-180.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 5 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:41 | Complete!                        
+
+Creating spike spectrograms for chunk 5...
+Computing FFT spectrogram for chunk 5...
+Chunk 5 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_5/chunk_5_visualization.png
+✅ Chunk 5 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_5/chunk_5_data.pkl
+
+--- Processing chunk 6: 180.0s-210.0s ---
+Loaded chunk 180.0-210.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 6 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:54 | Complete!                        
+
+Creating spike spectrograms for chunk 6...
+Computing FFT spectrogram for chunk 6...
+Chunk 6 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_6/chunk_6_visualization.png
+✅ Chunk 6 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_6/chunk_6_data.pkl
+
+--- Processing chunk 7: 210.0s-240.0s ---
+Loaded chunk 210.0-240.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 7 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:49 | Complete!                        
+
+Creating spike spectrograms for chunk 7...
+Computing FFT spectrogram for chunk 7...
+Chunk 7 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_7/chunk_7_visualization.png
+✅ Chunk 7 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_7/chunk_7_data.pkl
+
+--- Processing chunk 8: 240.0s-270.0s ---
+Loaded chunk 240.0-270.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 8 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:44 | Complete!                        
+
+Creating spike spectrograms for chunk 8...
+Computing FFT spectrogram for chunk 8...
+Chunk 8 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_8/chunk_8_visualization.png
+✅ Chunk 8 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_8/chunk_8_data.pkl
+
+--- Processing chunk 9: 270.0s-300.0s ---
+Loaded chunk 270.0-300.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 9 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:55 | Complete!                        
+
+Creating spike spectrograms for chunk 9...
+Computing FFT spectrogram for chunk 9...
+Chunk 9 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_9/chunk_9_visualization.png
+✅ Chunk 9 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_9/chunk_9_data.pkl
+
+--- Processing chunk 10: 300.0s-330.0s ---
+Loaded chunk 300.0-330.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 10 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:50 | Complete!                        
+
+Creating spike spectrograms for chunk 10...
+Computing FFT spectrogram for chunk 10...
+Chunk 10 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_10/chunk_10_visualization.png
+✅ Chunk 10 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_10/chunk_10_data.pkl
+
+--- Processing chunk 11: 330.0s-360.0s ---
+Loaded chunk 330.0-360.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 11 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:45 | Complete!                        
+
+Creating spike spectrograms for chunk 11...
+Computing FFT spectrogram for chunk 11...
+Chunk 11 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_11/chunk_11_visualization.png
+✅ Chunk 11 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_11/chunk_11_data.pkl
+
+--- Processing chunk 12: 360.0s-390.0s ---
+Loaded chunk 360.0-390.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 12 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:42 | Complete!                        
+
+Creating spike spectrograms for chunk 12...
+Computing FFT spectrogram for chunk 12...
+Chunk 12 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_12/chunk_12_visualization.png
+✅ Chunk 12 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_12/chunk_12_data.pkl
+
+--- Processing chunk 13: 390.0s-420.0s ---
+Loaded chunk 390.0-420.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 13 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:45 | Complete!                        
+
+Creating spike spectrograms for chunk 13...
+Computing FFT spectrogram for chunk 13...
+Chunk 13 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_13/chunk_13_visualization.png
+✅ Chunk 13 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_13/chunk_13_data.pkl
+
+--- Processing chunk 14: 420.0s-450.0s ---
+Loaded chunk 420.0-450.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 14 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:54 | Complete!                        
+
+Creating spike spectrograms for chunk 14...
+Computing FFT spectrogram for chunk 14...
+Chunk 14 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_14/chunk_14_visualization.png
+✅ Chunk 14 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_14/chunk_14_data.pkl
+
+--- Processing chunk 15: 450.0s-480.0s ---
+Loaded chunk 450.0-480.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 15 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:42 | Complete!                        
+
+Creating spike spectrograms for chunk 15...
+Computing FFT spectrogram for chunk 15...
+Chunk 15 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_15/chunk_15_visualization.png
+✅ Chunk 15 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_15/chunk_15_data.pkl
+
+--- Processing chunk 16: 480.0s-510.0s ---
+Loaded chunk 480.0-510.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 16 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:43 | Complete!                        
+
+Creating spike spectrograms for chunk 16...
+Computing FFT spectrogram for chunk 16...
+Chunk 16 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_16/chunk_16_visualization.png
+✅ Chunk 16 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_16/chunk_16_data.pkl
+
+--- Processing chunk 17: 510.0s-540.0s ---
+Loaded chunk 510.0-540.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 17 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:46 | Complete!                        
+
+Creating spike spectrograms for chunk 17...
+Computing FFT spectrogram for chunk 17...
+Chunk 17 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_17/chunk_17_visualization.png
+✅ Chunk 17 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_17/chunk_17_data.pkl
+
+--- Processing chunk 18: 540.0s-570.0s ---
+Loaded chunk 540.0-570.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 18 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:50 | Complete!                        
+
+Creating spike spectrograms for chunk 18...
+Computing FFT spectrogram for chunk 18...
+Chunk 18 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_18/chunk_18_visualization.png
+✅ Chunk 18 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_18/chunk_18_data.pkl
+
+--- Processing chunk 19: 570.0s-600.0s ---
+Loaded chunk 570.0-600.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 19 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:49 | Complete!                        
+
+Creating spike spectrograms for chunk 19...
+Computing FFT spectrogram for chunk 19...
+Chunk 19 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_19/chunk_19_visualization.png
+✅ Chunk 19 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_19/chunk_19_data.pkl
+
+--- Processing chunk 20: 600.0s-630.0s ---
+Loaded chunk 600.0-630.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 20 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:46 | Complete!                        
+
+Creating spike spectrograms for chunk 20...
+Computing FFT spectrogram for chunk 20...
+Chunk 20 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_20/chunk_20_visualization.png
+✅ Chunk 20 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_20/chunk_20_data.pkl
+
+--- Processing chunk 21: 630.0s-660.0s ---
+Loaded chunk 630.0-660.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 21 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:44 | Complete!                        
+
+Creating spike spectrograms for chunk 21...
+Computing FFT spectrogram for chunk 21...
+Chunk 21 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_21/chunk_21_visualization.png
+✅ Chunk 21 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_21/chunk_21_data.pkl
+
+--- Processing chunk 22: 660.0s-690.0s ---
+Loaded chunk 660.0-690.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 22 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:51 | Complete!                        
+
+Creating spike spectrograms for chunk 22...
+Computing FFT spectrogram for chunk 22...
+Chunk 22 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_22/chunk_22_visualization.png
+✅ Chunk 22 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_22/chunk_22_data.pkl
+
+--- Processing chunk 23: 690.0s-720.0s ---
+Loaded chunk 690.0-720.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 23 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:55 | Complete!                        
+
+Creating spike spectrograms for chunk 23...
+Computing FFT spectrogram for chunk 23...
+Chunk 23 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_23/chunk_23_visualization.png
+✅ Chunk 23 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_23/chunk_23_data.pkl
+
+--- Processing chunk 24: 720.0s-750.0s ---
+Loaded chunk 720.0-750.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 24 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:39 | Complete!                        
+
+Creating spike spectrograms for chunk 24...
+Computing FFT spectrogram for chunk 24...
+Chunk 24 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_24/chunk_24_visualization.png
+✅ Chunk 24 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_24/chunk_24_data.pkl
+
+--- Processing chunk 25: 750.0s-780.0s ---
+Loaded chunk 750.0-780.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 25 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:48 | Complete!                        
+
+Creating spike spectrograms for chunk 25...
+Computing FFT spectrogram for chunk 25...
+Chunk 25 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_25/chunk_25_visualization.png
+✅ Chunk 25 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_25/chunk_25_data.pkl
+
+--- Processing chunk 26: 780.0s-810.0s ---
+Loaded chunk 780.0-810.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 26 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:43 | Complete!                        
+
+Creating spike spectrograms for chunk 26...
+Computing FFT spectrogram for chunk 26...
+Chunk 26 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_26/chunk_26_visualization.png
+✅ Chunk 26 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_26/chunk_26_data.pkl
+
+--- Processing chunk 27: 810.0s-840.0s ---
+Loaded chunk 810.0-840.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 27 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:45 | Complete!                        
+
+Creating spike spectrograms for chunk 27...
+Computing FFT spectrogram for chunk 27...
+Chunk 27 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_27/chunk_27_visualization.png
+✅ Chunk 27 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_27/chunk_27_data.pkl
+
+--- Processing chunk 28: 840.0s-870.0s ---
+Loaded chunk 840.0-870.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 28 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:59 | Complete!                        
+
+Creating spike spectrograms for chunk 28...
+Computing FFT spectrogram for chunk 28...
+Chunk 28 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_28/chunk_28_visualization.png
+✅ Chunk 28 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_28/chunk_28_data.pkl
+
+--- Processing chunk 29: 870.0s-900.0s ---
+Loaded chunk 870.0-900.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 29 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:46 | Complete!                        
+
+Creating spike spectrograms for chunk 29...
+Computing FFT spectrogram for chunk 29...
+Chunk 29 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_29/chunk_29_visualization.png
+✅ Chunk 29 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_29/chunk_29_data.pkl
+
+--- Processing chunk 30: 900.0s-930.0s ---
+Loaded chunk 900.0-930.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 30 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:39 | Complete!                        
+
+Creating spike spectrograms for chunk 30...
+Computing FFT spectrogram for chunk 30...
+Chunk 30 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_30/chunk_30_visualization.png
+✅ Chunk 30 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_30/chunk_30_data.pkl
+
+--- Processing chunk 31: 930.0s-960.0s ---
+Loaded chunk 930.0-960.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 31 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:50 | Complete!                        
+
+Creating spike spectrograms for chunk 31...
+Computing FFT spectrogram for chunk 31...
+Chunk 31 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_31/chunk_31_visualization.png
+✅ Chunk 31 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_31/chunk_31_data.pkl
+
+--- Processing chunk 32: 960.0s-990.0s ---
+Loaded chunk 960.0-990.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 32 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:39 | Complete!                        
+
+Creating spike spectrograms for chunk 32...
+Computing FFT spectrogram for chunk 32...
+Chunk 32 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_32/chunk_32_visualization.png
+✅ Chunk 32 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_32/chunk_32_data.pkl
+
+--- Processing chunk 33: 990.0s-1020.0s ---
+Loaded chunk 990.0-1020.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 33 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:43 | Complete!                        
+
+Creating spike spectrograms for chunk 33...
+Computing FFT spectrogram for chunk 33...
+Chunk 33 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_33/chunk_33_visualization.png
+✅ Chunk 33 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_33/chunk_33_data.pkl
+
+--- Processing chunk 34: 1020.0s-1050.0s ---
+Loaded chunk 1020.0-1050.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 34 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:53 | Complete!                        
+
+Creating spike spectrograms for chunk 34...
+Computing FFT spectrogram for chunk 34...
+Chunk 34 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_34/chunk_34_visualization.png
+✅ Chunk 34 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_34/chunk_34_data.pkl
+
+--- Processing chunk 35: 1050.0s-1080.0s ---
+Loaded chunk 1050.0-1080.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 35 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:49 | Complete!                        
+
+Creating spike spectrograms for chunk 35...
+Computing FFT spectrogram for chunk 35...
+Chunk 35 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_35/chunk_35_visualization.png
+✅ Chunk 35 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_35/chunk_35_data.pkl
+
+--- Processing chunk 36: 1080.0s-1110.0s ---
+Loaded chunk 1080.0-1110.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 36 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:43 | Complete!                        
+
+Creating spike spectrograms for chunk 36...
+Computing FFT spectrogram for chunk 36...
+Chunk 36 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_36/chunk_36_visualization.png
+✅ Chunk 36 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_36/chunk_36_data.pkl
+
+--- Processing chunk 37: 1110.0s-1140.0s ---
+Loaded chunk 1110.0-1140.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 37 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:44 | Complete!                        
+
+Creating spike spectrograms for chunk 37...
+Computing FFT spectrogram for chunk 37...
+Chunk 37 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_37/chunk_37_visualization.png
+✅ Chunk 37 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_37/chunk_37_data.pkl
+
+--- Processing chunk 38: 1140.0s-1170.0s ---
+Loaded chunk 1140.0-1170.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 38 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:41 | Complete!                        
+
+Creating spike spectrograms for chunk 38...
+Computing FFT spectrogram for chunk 38...
+Chunk 38 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_38/chunk_38_visualization.png
+✅ Chunk 38 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_38/chunk_38_data.pkl
+
+--- Processing chunk 39: 1170.0s-1200.0s ---
+Loaded chunk 1170.0-1200.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 39 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:42 | Complete!                        
+
+Creating spike spectrograms for chunk 39...
+Computing FFT spectrogram for chunk 39...
+Chunk 39 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_39/chunk_39_visualization.png
+✅ Chunk 39 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_39/chunk_39_data.pkl
+
+--- Processing chunk 40: 1200.0s-1230.0s ---
+Loaded chunk 1200.0-1230.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 40 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:40 | Complete!                        
+
+Creating spike spectrograms for chunk 40...
+Computing FFT spectrogram for chunk 40...
+Chunk 40 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_40/chunk_40_visualization.png
+✅ Chunk 40 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_40/chunk_40_data.pkl
+
+--- Processing chunk 41: 1230.0s-1260.0s ---
+Loaded chunk 1230.0-1260.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 41 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:40 | Complete!                        
+
+Creating spike spectrograms for chunk 41...
+Computing FFT spectrogram for chunk 41...
+Chunk 41 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_41/chunk_41_visualization.png
+✅ Chunk 41 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_41/chunk_41_data.pkl
+
+--- Processing chunk 42: 1260.0s-1290.0s ---
+Loaded chunk 1260.0-1290.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 42 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:45 | Complete!                        
+
+Creating spike spectrograms for chunk 42...
+Computing FFT spectrogram for chunk 42...
+Chunk 42 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_42/chunk_42_visualization.png
+✅ Chunk 42 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_42/chunk_42_data.pkl
+
+--- Processing chunk 43: 1290.0s-1320.0s ---
+Loaded chunk 1290.0-1320.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 43 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:41 | Complete!                        
+
+Creating spike spectrograms for chunk 43...
+Computing FFT spectrogram for chunk 43...
+Chunk 43 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_43/chunk_43_visualization.png
+✅ Chunk 43 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_43/chunk_43_data.pkl
+
+--- Processing chunk 44: 1320.0s-1350.0s ---
+Loaded chunk 1320.0-1350.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 44 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:54 | Complete!                        
+
+Creating spike spectrograms for chunk 44...
+Computing FFT spectrogram for chunk 44...
+Chunk 44 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_44/chunk_44_visualization.png
+✅ Chunk 44 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_44/chunk_44_data.pkl
+
+--- Processing chunk 45: 1350.0s-1380.0s ---
+Loaded chunk 1350.0-1380.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 45 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:41 | Complete!                        
+
+Creating spike spectrograms for chunk 45...
+Computing FFT spectrogram for chunk 45...
+Chunk 45 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_45/chunk_45_visualization.png
+✅ Chunk 45 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_45/chunk_45_data.pkl
+
+--- Processing chunk 46: 1380.0s-1400.0s ---
+Loaded chunk 1380.0-1400.0s: 20040 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 46 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 3,078,144 samples @ 153600 Hz
+  Resonator 1: 3,078,144 samples @ 153600 Hz
+  Resonator 2: 3,078,144 samples @ 153600 Hz
+  Resonator 3: 3,078,144 samples @ 153600 Hz
+  Resonator 4: 3,078,144 samples @ 153600 Hz
+  Resonator 5: 3,078,144 samples @ 153600 Hz
+  Resonator 6: 3,078,144 samples @ 153600 Hz
+  Resonator 7: 3,078,144 samples @ 153600 Hz
+  Resonator 8: 3,078,144 samples @ 153600 Hz
+  Resonator 9: 3,078,144 samples @ 153600 Hz
+Total work: 30,781,440 samples
+[██████████████████████████████] 100% | 1:54 | Complete!                        
+
+Creating spike spectrograms for chunk 46...
+Computing FFT spectrogram for chunk 46...
+Chunk 46 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_46/chunk_46_visualization.png
+✅ Chunk 46 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_46/chunk_46_data.pkl
+
+✅ File /home/nachman/data/human.csv processed in 47 chunks
+Chunk index saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human/chunk_index.pkl
+
+✅ Visualization complete. Results saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/output_plots
+
+📊 Processing file: /home/nachman/data/human_nothing.csv
+
+🔄 Processing and visualizing: /home/nachman/data/human_nothing.csv
+
+🔄 PROCESSING FILE IN CHUNKS: /home/nachman/data/human_nothing.csv
+============================================================
+File /home/nachman/data/human_nothing.csv has 998440 samples, estimated duration: 998.4 seconds
+Small leftover (8.44s) added to previous chunk
+File duration: 998.4s, will process in 33 optimized chunks
+  Chunk 0: 0.0s - 30.0s (30.0s)
+  Chunk 1: 30.0s - 60.0s (30.0s)
+  Chunk 2: 60.0s - 90.0s (30.0s)
+  Chunk 3: 90.0s - 120.0s (30.0s)
+  Chunk 4: 120.0s - 150.0s (30.0s)
+  Chunk 5: 150.0s - 180.0s (30.0s)
+  Chunk 6: 180.0s - 210.0s (30.0s)
+  Chunk 7: 210.0s - 240.0s (30.0s)
+  Chunk 8: 240.0s - 270.0s (30.0s)
+  Chunk 9: 270.0s - 300.0s (30.0s)
+  Chunk 10: 300.0s - 330.0s (30.0s)
+  Chunk 11: 330.0s - 360.0s (30.0s)
+  Chunk 12: 360.0s - 390.0s (30.0s)
+  Chunk 13: 390.0s - 420.0s (30.0s)
+  Chunk 14: 420.0s - 450.0s (30.0s)
+  Chunk 15: 450.0s - 480.0s (30.0s)
+  Chunk 16: 480.0s - 510.0s (30.0s)
+  Chunk 17: 510.0s - 540.0s (30.0s)
+  Chunk 18: 540.0s - 570.0s (30.0s)
+  Chunk 19: 570.0s - 600.0s (30.0s)
+  Chunk 20: 600.0s - 630.0s (30.0s)
+  Chunk 21: 630.0s - 660.0s (30.0s)
+  Chunk 22: 660.0s - 690.0s (30.0s)
+  Chunk 23: 690.0s - 720.0s (30.0s)
+  Chunk 24: 720.0s - 750.0s (30.0s)
+  Chunk 25: 750.0s - 780.0s (30.0s)
+  Chunk 26: 780.0s - 810.0s (30.0s)
+  Chunk 27: 810.0s - 840.0s (30.0s)
+  Chunk 28: 840.0s - 870.0s (30.0s)
+  Chunk 29: 870.0s - 900.0s (30.0s)
+  Chunk 30: 900.0s - 930.0s (30.0s)
+  Chunk 31: 930.0s - 960.0s (30.0s)
+  Chunk 32: 960.0s - 998.4s (38.4s)
+
+--- Processing chunk 0: 0.0s-30.0s ---
+Loaded chunk 0.0-30.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 0 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:44 | Complete!                        
+
+Creating spike spectrograms for chunk 0...
+Computing FFT spectrogram for chunk 0...
+Chunk 0 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_0/chunk_0_visualization.png
+✅ Chunk 0 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_0/chunk_0_data.pkl
+
+--- Processing chunk 1: 30.0s-60.0s ---
+Loaded chunk 30.0-60.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 1 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:44 | Complete!                        
+
+Creating spike spectrograms for chunk 1...
+Computing FFT spectrogram for chunk 1...
+Chunk 1 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_1/chunk_1_visualization.png
+✅ Chunk 1 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_1/chunk_1_data.pkl
+
+--- Processing chunk 2: 60.0s-90.0s ---
+Loaded chunk 60.0-90.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 2 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:42 | Complete!                        
+
+Creating spike spectrograms for chunk 2...
+Computing FFT spectrogram for chunk 2...
+Chunk 2 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_2/chunk_2_visualization.png
+✅ Chunk 2 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_2/chunk_2_data.pkl
+
+--- Processing chunk 3: 90.0s-120.0s ---
+Loaded chunk 90.0-120.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 3 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:49 | Complete!                        
+
+Creating spike spectrograms for chunk 3...
+Computing FFT spectrogram for chunk 3...
+Chunk 3 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_3/chunk_3_visualization.png
+✅ Chunk 3 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_3/chunk_3_data.pkl
+
+--- Processing chunk 4: 120.0s-150.0s ---
+Loaded chunk 120.0-150.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 4 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:50 | Complete!                        
+
+Creating spike spectrograms for chunk 4...
+Computing FFT spectrogram for chunk 4...
+Chunk 4 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_4/chunk_4_visualization.png
+✅ Chunk 4 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_4/chunk_4_data.pkl
+
+--- Processing chunk 5: 150.0s-180.0s ---
+Loaded chunk 150.0-180.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 5 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:43 | Complete!                        
+
+Creating spike spectrograms for chunk 5...
+Computing FFT spectrogram for chunk 5...
+Chunk 5 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_5/chunk_5_visualization.png
+✅ Chunk 5 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_5/chunk_5_data.pkl
+
+--- Processing chunk 6: 180.0s-210.0s ---
+Loaded chunk 180.0-210.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 6 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:47 | Complete!                        
+
+Creating spike spectrograms for chunk 6...
+Computing FFT spectrogram for chunk 6...
+Chunk 6 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_6/chunk_6_visualization.png
+✅ Chunk 6 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_6/chunk_6_data.pkl
+
+--- Processing chunk 7: 210.0s-240.0s ---
+Loaded chunk 210.0-240.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 7 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:42 | Complete!                        
+
+Creating spike spectrograms for chunk 7...
+Computing FFT spectrogram for chunk 7...
+Chunk 7 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_7/chunk_7_visualization.png
+✅ Chunk 7 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_7/chunk_7_data.pkl
+
+--- Processing chunk 8: 240.0s-270.0s ---
+Loaded chunk 240.0-270.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 8 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:42 | Complete!                        
+
+Creating spike spectrograms for chunk 8...
+Computing FFT spectrogram for chunk 8...
+Chunk 8 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_8/chunk_8_visualization.png
+✅ Chunk 8 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_8/chunk_8_data.pkl
+
+--- Processing chunk 9: 270.0s-300.0s ---
+Loaded chunk 270.0-300.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 9 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:41 | Complete!                        
+
+Creating spike spectrograms for chunk 9...
+Computing FFT spectrogram for chunk 9...
+Chunk 9 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_9/chunk_9_visualization.png
+✅ Chunk 9 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_9/chunk_9_data.pkl
+
+--- Processing chunk 10: 300.0s-330.0s ---
+Loaded chunk 300.0-330.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 10 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:44 | Complete!                        
+
+Creating spike spectrograms for chunk 10...
+Computing FFT spectrogram for chunk 10...
+Chunk 10 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_10/chunk_10_visualization.png
+✅ Chunk 10 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_10/chunk_10_data.pkl
+
+--- Processing chunk 11: 330.0s-360.0s ---
+Loaded chunk 330.0-360.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 11 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:48 | Complete!                        
+
+Creating spike spectrograms for chunk 11...
+Computing FFT spectrogram for chunk 11...
+Chunk 11 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_11/chunk_11_visualization.png
+✅ Chunk 11 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_11/chunk_11_data.pkl
+
+--- Processing chunk 12: 360.0s-390.0s ---
+Loaded chunk 360.0-390.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 12 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:40 | Complete!                        
+
+Creating spike spectrograms for chunk 12...
+Computing FFT spectrogram for chunk 12...
+Chunk 12 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_12/chunk_12_visualization.png
+✅ Chunk 12 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_12/chunk_12_data.pkl
+
+--- Processing chunk 13: 390.0s-420.0s ---
+Loaded chunk 390.0-420.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 13 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:46 | Complete!                        
+
+Creating spike spectrograms for chunk 13...
+Computing FFT spectrogram for chunk 13...
+Chunk 13 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_13/chunk_13_visualization.png
+✅ Chunk 13 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_13/chunk_13_data.pkl
+
+--- Processing chunk 14: 420.0s-450.0s ---
+Loaded chunk 420.0-450.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 14 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:52 | Complete!                        
+
+Creating spike spectrograms for chunk 14...
+Computing FFT spectrogram for chunk 14...
+Chunk 14 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_14/chunk_14_visualization.png
+✅ Chunk 14 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_14/chunk_14_data.pkl
+
+--- Processing chunk 15: 450.0s-480.0s ---
+Loaded chunk 450.0-480.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 15 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:42 | Complete!                        
+
+Creating spike spectrograms for chunk 15...
+Computing FFT spectrogram for chunk 15...
+Chunk 15 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_15/chunk_15_visualization.png
+✅ Chunk 15 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_15/chunk_15_data.pkl
+
+--- Processing chunk 16: 480.0s-510.0s ---
+Loaded chunk 480.0-510.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 16 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:40 | Complete!                        
+
+Creating spike spectrograms for chunk 16...
+Computing FFT spectrogram for chunk 16...
+Chunk 16 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_16/chunk_16_visualization.png
+✅ Chunk 16 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_16/chunk_16_data.pkl
+
+--- Processing chunk 17: 510.0s-540.0s ---
+Loaded chunk 510.0-540.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 17 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:45 | Complete!                        
+
+Creating spike spectrograms for chunk 17...
+Computing FFT spectrogram for chunk 17...
+Chunk 17 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_17/chunk_17_visualization.png
+✅ Chunk 17 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_17/chunk_17_data.pkl
+
+--- Processing chunk 18: 540.0s-570.0s ---
+Loaded chunk 540.0-570.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 18 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:46 | Complete!                        
+
+Creating spike spectrograms for chunk 18...
+Computing FFT spectrogram for chunk 18...
+Chunk 18 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_18/chunk_18_visualization.png
+✅ Chunk 18 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_18/chunk_18_data.pkl
+
+--- Processing chunk 19: 570.0s-600.0s ---
+Loaded chunk 570.0-600.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 19 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:49 | Complete!                        
+
+Creating spike spectrograms for chunk 19...
+Computing FFT spectrogram for chunk 19...
+Chunk 19 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_19/chunk_19_visualization.png
+✅ Chunk 19 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_19/chunk_19_data.pkl
+
+--- Processing chunk 20: 600.0s-630.0s ---
+Loaded chunk 600.0-630.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 20 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:47 | Complete!                        
+
+Creating spike spectrograms for chunk 20...
+Computing FFT spectrogram for chunk 20...
+Chunk 20 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_20/chunk_20_visualization.png
+✅ Chunk 20 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_20/chunk_20_data.pkl
+
+--- Processing chunk 21: 630.0s-660.0s ---
+Loaded chunk 630.0-660.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 21 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:44 | Complete!                        
+
+Creating spike spectrograms for chunk 21...
+Computing FFT spectrogram for chunk 21...
+Chunk 21 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_21/chunk_21_visualization.png
+✅ Chunk 21 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_21/chunk_21_data.pkl
+
+--- Processing chunk 22: 660.0s-690.0s ---
+Loaded chunk 660.0-690.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 22 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:50 | Complete!                        
+
+Creating spike spectrograms for chunk 22...
+Computing FFT spectrogram for chunk 22...
+Chunk 22 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_22/chunk_22_visualization.png
+✅ Chunk 22 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_22/chunk_22_data.pkl
+
+--- Processing chunk 23: 690.0s-720.0s ---
+Loaded chunk 690.0-720.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 23 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:47 | Complete!                        
+
+Creating spike spectrograms for chunk 23...
+Computing FFT spectrogram for chunk 23...
+Chunk 23 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_23/chunk_23_visualization.png
+✅ Chunk 23 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_23/chunk_23_data.pkl
+
+--- Processing chunk 24: 720.0s-750.0s ---
+Loaded chunk 720.0-750.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 24 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:41 | Complete!                        
+
+Creating spike spectrograms for chunk 24...
+Computing FFT spectrogram for chunk 24...
+Chunk 24 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_24/chunk_24_visualization.png
+✅ Chunk 24 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_24/chunk_24_data.pkl
+
+--- Processing chunk 25: 750.0s-780.0s ---
+Loaded chunk 750.0-780.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 25 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:47 | Complete!                        
+
+Creating spike spectrograms for chunk 25...
+Computing FFT spectrogram for chunk 25...
+Chunk 25 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_25/chunk_25_visualization.png
+✅ Chunk 25 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_25/chunk_25_data.pkl
+
+--- Processing chunk 26: 780.0s-810.0s ---
+Loaded chunk 780.0-810.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 26 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:48 | Complete!                        
+
+Creating spike spectrograms for chunk 26...
+Computing FFT spectrogram for chunk 26...
+Chunk 26 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_26/chunk_26_visualization.png
+✅ Chunk 26 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_26/chunk_26_data.pkl
+
+--- Processing chunk 27: 810.0s-840.0s ---
+Loaded chunk 810.0-840.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 27 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:45 | Complete!                        
+
+Creating spike spectrograms for chunk 27...
+Computing FFT spectrogram for chunk 27...
+Chunk 27 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_27/chunk_27_visualization.png
+✅ Chunk 27 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_27/chunk_27_data.pkl
+
+--- Processing chunk 28: 840.0s-870.0s ---
+Loaded chunk 840.0-870.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 28 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:42 | Complete!                        
+
+Creating spike spectrograms for chunk 28...
+Computing FFT spectrogram for chunk 28...
+Chunk 28 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_28/chunk_28_visualization.png
+✅ Chunk 28 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_28/chunk_28_data.pkl
+
+--- Processing chunk 29: 870.0s-900.0s ---
+Loaded chunk 870.0-900.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 29 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:44 | Complete!                        
+
+Creating spike spectrograms for chunk 29...
+Computing FFT spectrogram for chunk 29...
+Chunk 29 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_29/chunk_29_visualization.png
+✅ Chunk 29 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_29/chunk_29_data.pkl
+
+--- Processing chunk 30: 900.0s-930.0s ---
+Loaded chunk 900.0-930.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 30 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:42 | Complete!                        
+
+Creating spike spectrograms for chunk 30...
+Computing FFT spectrogram for chunk 30...
+Chunk 30 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_30/chunk_30_visualization.png
+✅ Chunk 30 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_30/chunk_30_data.pkl
+
+--- Processing chunk 31: 930.0s-960.0s ---
+Loaded chunk 930.0-960.0s: 30000 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 31 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 4,608,000 samples @ 153600 Hz
+  Resonator 1: 4,608,000 samples @ 153600 Hz
+  Resonator 2: 4,608,000 samples @ 153600 Hz
+  Resonator 3: 4,608,000 samples @ 153600 Hz
+  Resonator 4: 4,608,000 samples @ 153600 Hz
+  Resonator 5: 4,608,000 samples @ 153600 Hz
+  Resonator 6: 4,608,000 samples @ 153600 Hz
+  Resonator 7: 4,608,000 samples @ 153600 Hz
+  Resonator 8: 4,608,000 samples @ 153600 Hz
+  Resonator 9: 4,608,000 samples @ 153600 Hz
+Total work: 46,080,000 samples
+[██████████████████████████████] 100% | 2:46 | Complete!                        
+
+Creating spike spectrograms for chunk 31...
+Computing FFT spectrogram for chunk 31...
+Chunk 31 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_31/chunk_31_visualization.png
+✅ Chunk 31 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_31/chunk_31_data.pkl
+
+--- Processing chunk 32: 960.0s-998.4s ---
+Loaded chunk 960.0-998.4s: 38440 samples
+Detected HUMAN data - using human-optimized resonator grid
+Processing chunk 32 with resonator grid...
+Using 15 processes for parallel computation
+Preparing resonators for clock frequency 153600
+Processing 10 resonators in parallel across all clock frequencies
+
+Processing 10 resonators in parallel:
+  Resonator 0: 5,904,384 samples @ 153600 Hz
+  Resonator 1: 5,904,384 samples @ 153600 Hz
+  Resonator 2: 5,904,384 samples @ 153600 Hz
+  Resonator 3: 5,904,384 samples @ 153600 Hz
+  Resonator 4: 5,904,384 samples @ 153600 Hz
+  Resonator 5: 5,904,384 samples @ 153600 Hz
+  Resonator 6: 5,904,384 samples @ 153600 Hz
+  Resonator 7: 5,904,384 samples @ 153600 Hz
+  Resonator 8: 5,904,384 samples @ 153600 Hz
+  Resonator 9: 5,904,384 samples @ 153600 Hz
+Total work: 59,043,840 samples
+[██████████████████████████████] 100% | 3:34 | Complete!                        
+
+Creating spike spectrograms for chunk 32...
+Computing FFT spectrogram for chunk 32...
+Chunk 32 visualization (with FFT + Spikegram) saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_32/chunk_32_visualization.png
+✅ Chunk 32 processed and saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_32/chunk_32_data.pkl
+
+✅ File /home/nachman/data/human_nothing.csv processed in 33 chunks
+Chunk index saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/chunked_output_not_norm/human_nothing/chunk_index.pkl
+
+✅ Visualization complete. Results saved to /home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/output_plots
+
+✅ Processing complete!

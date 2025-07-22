@@ -1,0 +1,80 @@
+{
+  "car_data": {
+    "total_duration_s": 1320.06,
+    "num_files": 2,
+    "frequencies": [
+      22.1,
+      28.8,
+      30.5,
+      34.7,
+      37.2,
+      40.2,
+      43.6,
+      47.7,
+      52.6,
+      58.7,
+      63.6,
+      69.4,
+      76.3,
+      89.8,
+      95.4
+    ],
+    "sample_counts": {
+      "22.1": 202761215,
+      "28.8": 202761215,
+      "30.5": 202761215,
+      "34.7": 202761215,
+      "37.2": 202761215,
+      "40.2": 202761215,
+      "43.6": 202761215,
+      "47.7": 202761215,
+      "52.6": 202761215,
+      "58.7": 202761215,
+      "63.6": 202761215,
+      "69.4": 202761215,
+      "76.3": 202761215,
+      "89.8": 202761215,
+      "95.4": 202761215
+    }
+  },
+  "human_data": {
+    "total_duration_s": 2398.48,
+    "num_files": 2,
+    "frequencies": [
+      22.1,
+      30.5,
+      33.9,
+      34.7,
+      41.2,
+      50.9,
+      52.6,
+      76.3,
+      63.6,
+      95.4
+    ],
+    "sample_counts": {
+      "22.1": 368406528,
+      "30.5": 368406528,
+      "33.9": 368406528,
+      "34.7": 368406528,
+      "41.2": 368406528,
+      "50.9": 368406528,
+      "52.6": 368406528,
+      "76.3": 368406528,
+      "63.6": 368406528,
+      "95.4": 368406528
+    }
+  },
+  "training_ready": {
+    "common_frequencies": [
+      22.1,
+      30.5,
+      34.7,
+      52.6,
+      63.6
+    ],
+    "network_created": true,
+    "car_dataset_path": "/home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/snn_dataset_car_combined_from_chunks",
+    "human_dataset_path": "/home/nachman/sctn-env/lib/python3.11/site-packages/python_sctn/Project_Geo/project/MyCode/snn_dataset_human_combined_from_chunks"
+  }
+}
